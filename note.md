@@ -8,7 +8,7 @@ title: Note
 {% if currentyear != year %}
 
   <h3>{{ currentyear }}</h3>
-    &nbsp;&nbsp;{% capture year %}{{ currentyear }}{% endcapture %}
+    {% capture year %}{{ currentyear }}{% endcapture %}
   {% endif %}
 
   <li>{{ post.date | date: "%m. %d" }} — <a href="{{ post.url }}">{{ post.title }}</a></li>
