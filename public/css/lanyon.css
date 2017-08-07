@@ -549,7 +549,7 @@ a.pagination-item:hover {
   list-style: none;
   padding: 0;
   text-align: justify;
-  font-size: 16px;
+  font-size: 12px;
   li {
     display: inline-block;
     margin: 0 12px 12px 0;
