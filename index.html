@@ -11,10 +11,9 @@ layout: default
 {% endfor %}
 </ul>
 
-<h1>Recent</h1>
-<hr>
 <div class="posts">
   {% for post in paginator.posts %}
+  <hr>
   <div class="post">
     <h2 class="post-title">
       <a href="{{ post.url }}">
