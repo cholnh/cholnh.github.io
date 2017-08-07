@@ -23,3 +23,19 @@ version:          1.0.0
 
 github:
   repo:           https://github.com/cholnh/
+
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: cholnh486@gmail.com
+  facebook: NAKZZI
+  flickr:
+  github: cholnh
+  instagram:
+  linkedin:
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter:
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
