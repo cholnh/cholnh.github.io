@@ -183,6 +183,7 @@ pre code {
 	white-space: pre; 
 	overflow: auto; 
 	tab-size: 4;
+	font-size: 14px;
 	margin-bottom: 0;
 }
 
