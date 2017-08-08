@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Java "
+title:  "Java의 정석"
 date:   2017-08-08 16:34:00
 lastmod: 2017-08-08 16:34:00
 categories: Java
-tags: Java ÀÚ¹ÙÀÇÁ¤¼® ¼­Àû
+tags: Java 
 ---
 
 THIS IS JAVA
