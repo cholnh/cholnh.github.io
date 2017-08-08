@@ -14,13 +14,13 @@ title: Dev
     {% unless forloop.last %}
         {% capture word %}{{ category[item] | strip_newlines | lstrip | rstrip }}{% endcapture %}
         {% if word != "Diary" %}
-            <h2 class="category" id="{{ word }}">{{ word }}</h2>
-            <ul class="titles">
+            <h3 class="category" id="{{ word }}">{{ word }}</h3>
+            <ul class="titles" style="color:#aaa; font-size: 16px;">
             {% for post in site.categories[word] %}
                 {% if post.title != null %}
                     <li>
                       <div>
-                        {{ post.date | date: "%b %d %Y" }}»
+                        {{ post.date | date: "%b %d %Y" }}»&nbsp;
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                       </div>
                     </li>
