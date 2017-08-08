@@ -1,6 +1,5 @@
 ---
 layout: page
-title: About
 ---
 <br><br>
 <div style="overflow: hidden">
