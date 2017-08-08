@@ -12,8 +12,9 @@ title: Note
     {% endif %}
 
     <li>
-      <div>{{ post.date | date: "%b %d, %Y" }}» </div> 
-      <div><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a><div>
+      <div>
+      {{ post.date | date: "%b %d, %Y" }}» <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <div>
     </li>  
   {% endif %}
 {% endfor %}
