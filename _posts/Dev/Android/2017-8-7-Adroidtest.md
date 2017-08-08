@@ -3,12 +3,12 @@ layout: post
 title:  "How to install Java 8 On Ubuntu"
 date:   2015-07-08 20:00:00
 lastmod: 2016-11-26 12:00:00 
-categories: Java
+categories: Android
 tags: Java8 Ubuntu Setting
 ---
 
 ![JAVA8](https://eclipse.org/xtend/images/java8_logo.png)
 
-( ÀÌ¹ÌÁö ÃâÃ³ : [https://eclipse.org](https://eclipse.org) )
+( ì´ë¯¸ì§€ ì¶œì²˜ : [https://eclipse.org](https://eclipse.org) )
 
-±âº»ÀûÀÎ Java ¼³Ä¡ ³»¿ëÀÔ´Ï´Ù.
+ê¸°ë³¸ì ì¸ Java ì„¤ì¹˜ ë‚´ìš©ì…ë‹ˆë‹¤.
