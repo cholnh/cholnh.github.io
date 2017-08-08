@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Jekyll 블로그 태그 기능 붙이기
+title: "Jekyll 블로그 태그 기능 붙이기"
 categories: Note
 tags:
 - Jekyll
