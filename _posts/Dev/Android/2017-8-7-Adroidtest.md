@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to install Java 8 On Ubuntu"
+title:  "Adroid Post1"
 date:   2015-07-08 20:00:00
 lastmod: 2016-11-26 12:00:00 
 categories: Android
