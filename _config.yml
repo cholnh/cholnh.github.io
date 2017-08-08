@@ -4,6 +4,7 @@ pygments:         true
 
 # Permalinks
 permalink:        pretty
+permalink: /:categories/:title.html
 relative_permalinks: false
 
 # Setup
