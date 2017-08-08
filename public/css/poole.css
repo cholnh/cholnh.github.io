@@ -180,7 +180,10 @@ pre code {
   border-radius: 4px;
 }
 .highlight pre {
-  margin-bottom: 0;
+	white-space: pre; 
+	overflow: auto; 
+	tab-size: 4;
+	margin-bottom: 0;
 }
 
 /* Quotes */
