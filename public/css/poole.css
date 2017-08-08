@@ -185,6 +185,7 @@ pre code {
 	tab-size: 4;
 	font-size: 14px;
 	margin-bottom: 0;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Quotes */
