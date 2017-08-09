@@ -52,7 +52,7 @@ layout: default
 <div id="tagcloud">
 	<ul>
 	{% for tag in site.tags %}
-		<li><a href="/tags/#{{ tag | first | slugize }}" onclick="myfunc('#{{ tag | first | slugize }}')">{{ tag | first }}</a></li>
+		<li><a onclick="myfunc('#{{ tag | first | slugize }}')">{{ tag | first }}</a></li>
 	{% endfor %}
 	</ul>
 </div>
