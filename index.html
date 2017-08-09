@@ -52,7 +52,7 @@ layout: default
 <div id="tagcloud">
 	<ul>
 	{% for tag in site.tags %}
-		<li><a href="/tags/#{{ tag | first | slugize }}" onclick="scroll('#{{ tag | first | slugize }}')">{{ tag | first }}</a></li>
+		<li><a href="/tags/#{{ tag | first | slugize }}" onclick="myfunc('#{{ tag | first | slugize }}')">{{ tag | first }}</a></li>
 	{% endfor %}
 	</ul>
 </div>
@@ -72,7 +72,7 @@ jQuery(document).ready(function($) {
         });
 });
 */
-function scroll(tagName) {
+function myfunc(tagName) {
 console.log("dd");
 console.log("log " + tagName );
 	location.href="/tags";
