@@ -6,7 +6,7 @@ permalink: /tags/
 <ul class="tag-cloud">
 {% for tag in site.tags %}
   <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
-    <a href="#{{ tag | first | slugize }}">
+    <a href="#{{ tag | first | slugize }}" class="scroll">
       {{ tag | first }}
     </a> &nbsp;&nbsp;
   </span>
@@ -27,3 +27,19 @@ permalink: /tags/
   </div>
 {% endfor %}
 </div>
+
+<script>
+jQuery(document).ready(function($) {
+
+	$(".scroll").click(function(event){
+		var hash = this.hash;
+		
+		event.preventDefault();
+		$(document).ready(function(){
+			$('html,body').animate({scrollTop:$(hash).offset().top}, 1000, function(){
+			window.location.hash = hash;
+			});
+		});
+	});
+});
+</script>

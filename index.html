@@ -52,33 +52,8 @@ layout: default
 <div id="tagcloud">
 	<ul>
 	{% for tag in site.tags %}
-		<li><a onclick="myfunc('#{{ tag | first | slugize }}')">{{ tag | first }}</a></li>
+		<li><a href="#{{ tag | first | slugize }}">{{ tag | first }}</a></li>
 	{% endfor %}
 	</ul>
 </div>
 <script>
-/*
-jQuery(document).ready(function($) {
-
-        $(".scroll").click(function(event){
-				var hash = this.hash;
-				
-                event.preventDefault();
-				$(document).ready(function(){
-					$('html,body').animate({scrollTop:$(hash).offset().top}, 1000, function(){
-					window.location.hash = hash;
-					});
-				});
-        });
-});
-*/
-function myfunc(tagName) {
-console.log("dd");
-console.log("log " + tagName );
-	location.href="/tags";
-	console.log("log " + tagName );
-	$(document).ready(function(){
-		$('html,body').animate({scrollTop:$(tagName).offset().top}, 1000);
-	});
-}
-</script>
