@@ -61,7 +61,9 @@ jQuery(document).ready(function($) {
         $(".scroll").click(function(event){            
                 //event.preventDefault();
 				$(document).ready(function(){
-					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 500, function(){
+					window.location.hash = hash;
+					});
 				});
         });
 });
