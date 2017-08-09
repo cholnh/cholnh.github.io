@@ -14,7 +14,7 @@ layout: default
 		padding: 0px;
 		margin: 0px;
 		list-style-type: none;
-		
+		margin-left: 40px;
 	}
 </style>
 <script type="text/javascript">
