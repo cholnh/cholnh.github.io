@@ -20,9 +20,9 @@ layout: default
 <script type="text/javascript">
     var settings = {
     //height of sphere container
-    height: 300,
+    height: 400,
     //width of sphere container
-    width: 300,
+    width: 400,
     //radius of sphere
     radius: 100,
     //rotation speed
@@ -32,7 +32,7 @@ layout: default
     //delay between update position
     timer: 5,
     //dependence of a font size on axis Z
-    fontMultiplier: 35,
+    fontMultiplier: 25,
     //tag css stylies on mouse over
     hoverStyle: {
         border: 'bold',
