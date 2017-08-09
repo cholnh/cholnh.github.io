@@ -59,11 +59,11 @@ layout: default
 <script>
 jQuery(document).ready(function($) {
         $(".scroll").click(function(event){
-				var h = this.hash;
-				location.href="/tags";
+				var hash = this.hash;
+				
                 event.preventDefault();
 				$(document).ready(function(){
-					$('html,body').animate({scrollTop:1000, 1000, function(){
+					$('html,body').animate({scrollTop:$(hash).offset().top}, 1000, function(){
 					window.location.hash = hash;
 					});
 				});
