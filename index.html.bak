@@ -1,16 +1,6 @@
 ---
 layout: default
 ---
-<ul class="tag-cloud" style="text-align: center; margin-bottom: 100px;">
-{% for tag in site.tags %}
-  <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
-    <a href="/tags/#{{ tag | first | slugize }}">
-      {{ tag | first }}
-    </a> &nbsp;&nbsp;
-  </span>
-{% endfor %}
-</ul>
-
 <script src="public/js/jquery-1.11.1.min.js"></script>
 <script src="public/js/tagcloud.jquery.min.js"></script>
 <style>
@@ -62,7 +52,9 @@ layout: default
 <div id="tagcloud">
 	<ul>
 	{% for tag in site.tags %}
+	<span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
 		<li><a href="/tags/#{{ tag | first | slugize }}">{{ tag | first }}</a></li>
+	</span>
 	{% endfor %}
 	</ul>
 </div>
