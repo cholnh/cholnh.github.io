@@ -11,11 +11,10 @@ relative_permalinks: false
 title:            Nakzzi
 tagline:          ''
 description:      'Made by <a href="https://github.com/cholnh/" target="_blank">@Nakzzi</a>.'
-url:              
+url: https://cholnh.github.io             
 
 author:
-  name:           'Choi Nak Hyung'
-  url:            
+  name:           'Choi Nak Hyung'       
 
 paginate:         5
 
