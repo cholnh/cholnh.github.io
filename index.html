@@ -74,11 +74,9 @@ jQuery(document).ready(function($) {
 */
 function scroll(tagName) {
 	location.href="/tags";
-	
+	console.log("log " + tagName );
 	$(document).ready(function(){
-		location.href="#tagName";
-		event.preventDefault();
-		$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000);
+		$('html,body').animate({scrollTop:$(tagName).offset().top}, 1000);
 	});
 }
 </script>
