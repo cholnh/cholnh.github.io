@@ -12,7 +12,7 @@ layout: default
 		outline: none;
 		text-decoration: none;
 		padding: 0px;
-		margin: 100px;
+		margin: 0px;
 		list-style-type: none;
 		
 	}
@@ -52,9 +52,7 @@ layout: default
 <div id="tagcloud">
 	<ul>
 	{% for tag in site.tags %}
-	<span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
 		<li><a href="/tags/#{{ tag | first | slugize }}">{{ tag | first }}</a></li>
-	</span>
 	{% endfor %}
 	</ul>
 </div>
