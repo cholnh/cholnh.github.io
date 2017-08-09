@@ -6,7 +6,7 @@ layout: default
 <style>
 		/* Mother effin brute force CSS reset... */
 		/* Always include after any other CSS */
-	.tagcloud {
+	#tagcloud {
 		resize: both;
 		border: none;
 		outline: none;
@@ -14,17 +14,17 @@ layout: default
 		padding: 0px;
 		margin: 0px;
 		list-style-type: none;
-		margin-left: 40px;
+		/*margin-left: 40px;*/
 	}
 </style>
 <script type="text/javascript">
     var settings = {
     //height of sphere container
-    height: 600,
+    height: 300,
     //width of sphere container
-    width: 600,
+    width: 300,
     //radius of sphere
-    radius: 150,
+    radius: 100,
     //rotation speed
     speed: 0.5,
     //sphere rotations slower
