@@ -52,7 +52,15 @@ layout: default
 <div id="tagcloud">
 	<ul>
 	{% for tag in site.tags %}
-		<li><a href="/tags/#{{ tag | first | slugize }}">{{ tag | first }}</a></li>
+		<li><a href="/tags/#{{ tag | first | slugize }}" class="scroll">{{ tag | first }}</a></li>
 	{% endfor %}
 	</ul>
 </div>
+<script>
+jQuery(document).ready(function($) {
+        $(".scroll").click(function(event){            
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+        });
+});
+</script>
