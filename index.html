@@ -59,7 +59,7 @@ layout: default
         $('#tagcloud').tagoSphere(settings);
     });
 </script>
-<div class="tagcloud">
+<div id="tagcloud">
 	<ul>
 	{% for tag in site.tags %}
 		<li><a href="/tags/#{{ tag | first | slugize }}">{{ tag | first }}</a></li>
