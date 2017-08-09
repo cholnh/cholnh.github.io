@@ -59,13 +59,13 @@ layout: default
 <script>
 jQuery(document).ready(function($) {
         $(".scroll").click(function(event){
-				location.href="/tags";
+				//location.href="/tags";
                 event.preventDefault();
-				
-				$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000, function(){
-				window.location.hash = hash;
+				$(document).ready(function(){
+					$('html,body').animate({scrollTop:$(this.hash).offset().top}, 1000, function(){
+					window.location.hash = hash;
+					});
 				});
-				
         });
 });
 </script>
