@@ -1,18 +1,68 @@
 ---
 layout: default
 ---
-<script>
-	var ismobile=navigator.userAgent.match(/(iPad)|(iPhone)|(iPod)|(android)|(webOS)/i);
-	var html;
-	if(ismobile) {
-		html += '<ul class="tag-cloud" style="text-align: center; margin-bottom: 100px;">';
-		html += '{% for tag in site.tags %} <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%"><a href="/tags/#{{ tag | first | slugize }}">{{ tag | first }}</a> &nbsp;&nbsp;</span>{% endfor %}';
+<ul class="tag-cloud" style="text-align: center; margin-bottom: 100px;">
+{% for tag in site.tags %}
+  <span style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 70  }}%">
+    <a href="/tags/#{{ tag | first | slugize }}">
+      {{ tag | first }}
+    </a> &nbsp;&nbsp;
+  </span>
+{% endfor %}
+</ul>
 
-	} else {
-		html = "hh";
+<script src="public/js/jquery-1.11.1.min.js"></script>
+<script src="public/js/tagcloud.jquery.min.js"></script>
+<style>
+		/* Mother effin brute force CSS reset... */
+		/* Always include after any other CSS */
+	* {
+		resize: both;
+		border: none;
+		outline: none;
+		text-decoration: none;
+		padding: 0px;
+		margin: 0px;
+		list-style-type: none;
+		
 	}
-	document.getElementById('tag-contents').innerHTML = html;
+</style>
+<script type="text/javascript">
+    var settings = {
+    //height of sphere container
+    height: 600,
+    //width of sphere container
+    width: 600,
+    //radius of sphere
+    radius: 150,
+    //rotation speed
+    speed: 0.5,
+    //sphere rotations slower
+    slower: 0.1,
+    //delay between update position
+    timer: 5,
+    //dependence of a font size on axis Z
+    fontMultiplier: 35,
+    //tag css stylies on mouse over
+    hoverStyle: {
+        border: 'bold',
+        color: '#0b2e6f'
+    },
+    //tag css stylies on mouse out
+    mouseOutStyle: {
+        border: '',
+        color: ''
+    }
+    };
+
+    $(document).ready(function(){
+        $('#tagcloud').tagoSphere(settings);
+    });
 </script>
-
-
-<div id="tag-contents"></div>
+<div class="tagcloud">
+	<ul>
+	{% for tag in site.tags %}
+		<li><a href="/tags/#{{ tag | first | slugize }}">{{ tag | first }}</a></li>
+	{% endfor %}
+	</ul>
+</div>
