@@ -24,8 +24,8 @@
       <div class="container content">
         {{ content }}
       </div>
+      <hr>
       <div class="wrapper-footer">
-	    <hr style="margin-bottom: 0px;">
         <div class="container">
           <footer class="footer">
             {% include svg-icons.html %}
