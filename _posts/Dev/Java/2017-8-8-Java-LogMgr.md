@@ -2,7 +2,8 @@
 layout: post
 title:  "Log4j 로그파일 동적으로 생성하기"
 categories: Java
-tags: Java 
+tags: Java Log4j logfile
+comments: true
 ---
 
 ### Intro
