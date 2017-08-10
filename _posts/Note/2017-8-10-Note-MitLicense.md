@@ -8,7 +8,7 @@ comments: true
 
 ### Intro
 
-(**MIT License**)[https://ko.wikipedia.org/wiki/MIT_%ED%97%88%EA%B0%80%EC%84%9C] 란?
+**[MIT License](https://ko.wikipedia.org/wiki/MIT_%ED%97%88%EA%B0%80%EC%84%9C)** 란?
 
 MIT License를 갖는 소프트웨어를 많이 접해 봤을 것이다. 
 MIT(미국의 메사추세츠 공대)학생이 만든 소프트웨어가 이렇게나 많나...? 하고 생각해봤을 법 한데, 해당 라이센스는 MIT대학의 소프트웨어 공학도들을 돕기 위해 개발한 라이선스이다.
