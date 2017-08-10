@@ -22,7 +22,7 @@ title: Dev
                       <div>
                         {{ post.date | date: "%b %d %Y" }}»&nbsp;
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;
-						[<a href="{{ post.url | prepend: site.baseurl }}#disqus_thread">Link</a>]
+						[<a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" style="color: #aaa;"></a>]
                       </div>
                     </li>
                 {% endif %}
