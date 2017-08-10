@@ -50,4 +50,12 @@ MIT(미국의 메사추세츠 공대)학생이 만든 소프트웨어가 이렇�
 >WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 >FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 >OTHER DEALINGS IN THE SOFTWARE.
+  
+- 이 내용을 프로젝트 root디렉토리에 **[license.txt]({{ site.url }}/assets/license/license.txt)형태로 추가**시켜 놓아야 한다.
+- **연도**는 해당 프로젝트의 마지막 배포 년도를 기입해야 한다.
+- 마지막으로 프로젝트의 **모든 소스**에 아래와 같은 코멘트를 상단에 달아놓아야 한다.  
 
+>Copyright (c) <연도> <저작권 소유자>
+>See the file license.txt for copying permission.
+
+위 코멘트는 **license.txt**와 같은 셈이다
