@@ -7,7 +7,8 @@ title: Note
   {% if post.title != null %}
     <li>
       <div style="color:#aaa; font-size: 16px;">
-      {{ post.date | date: "%b %d, %Y" }}»&nbsp;<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {{ post.date | date: "%b %d, %Y" }}»&nbsp;<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;
+	  <a href="{{ post.url | prepend: site.baseurl }}#disqus_thread" style="color:#aaa; font-size:14px;"></a>
       <div>
     </li>  
   {% endif %}
