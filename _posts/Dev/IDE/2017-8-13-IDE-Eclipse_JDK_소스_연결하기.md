@@ -1,0 +1,53 @@
+---
+layout: post
+title:  "Eclipse JDK 소스 연결하기"
+categories: IDE
+tags: IDE, Eclipse, Java, JDK 
+comments: true
+---
+
+### Intro
+
+코딩을 하다보면 자바에서 제공하는 라이브러리 또는 참조하고 있는 라이브러리의 **소스내용**이 궁금할 때가 있다.  
+자바 IDE중 하나인 **Eclipse** 에서는 클래스나 메서드간의 연결을 트래킹할 수 있게 도와준다.  
+해당 메서드의 소스를 보려면 클릭을 한 상태로 `F3`키를 누르거나 `Ctrl`키를 누른 상태로 클릭을 하면 된다.  
+
+
+우리가 자주 접하는 `System.out.println()`메서드를 검색해보자.  
+`println()`을 클릭한 상태도 `F3`키를 눌러보면  
+
+
+아래그림과 같은 소스를 찾을 수 없단 문구가 나온다.  
+![ classNotFound ]({{ site.url }}/assets/jdkSource/classNotFound.png)
+
+
+소스를 연결하기 위해서는 아래 표시된 Attach Source를 눌러 소스파일의 Path를 정해주면 된다.  
+![ attach ]({{ site.url }}/assets/jdkSource/attach.png)
+주의) JDK가 아닌 외부 라이브러리의 경우 소스파일(xxxSource.jar)이 있어야 한다.  
+
+
+JDK연결을 예로 들어보자.  
+External location을 선택 후 External File을 눌러준다.  
+![ external ]({{ site.url }}/assets/jdkSource/external.png)
+
+
+Java가 설치된 디렉토리에 jdk폴더 내 src.zip을 찾는다.  
+ex) C:/Program Files/Java/jdk1.8.0_121/src.zip  
+파일이 없다면 [jdk를 다운](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)받는다.
+
+
+확인을 누르고 다시 메서드를 클릭하고 `F3`키를 눌러보면  
+`println()`메서드의 원형이 나온다.  
+![ println ]({{ site.url }}/assets/jdkSource/println.png)
+
+
+매번 프로젝트를 생성할 때마다 jdk 소스를 적용하는 방법도 있다.  
+Windows -> Preferences, Java -> Installed JREs 탭에 들어가 Search를 통해 jdk 디렉토리 내 jre디렉토리를 선택한다.
+ex) C:\Program Files\Java\jdk1.8.0_121\jre  
+
+
+이제 새로 만든 프로젝트에는 소스연결이 되어있는 상태로 프로젝트가 생성될 것이다.  
+이미 만들어진 프로젝트에 적용하려면, 프로젝트 우클릭 -> Preferences, Java Build Path 내에 Libraries탭에 들어간다.  
+JRE System Library를 선택 후 Edit을 누루고 Alternate JRE 에서 방금 설정한 jdk를 선택한다.  
+![ edit ]({{ site.url }}/assets/jdkSource/edit.png)  
+![ alter ]({{ site.url }}/assets/jdkSource/alter.png)  

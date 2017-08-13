@@ -1,0 +1,24 @@
+---
+layout: post
+title:  ""
+categories: Java
+tags: Java 
+comments: true
+---
+
+### Intro
+
+
+### Usage
+
+   
+### Result
+
+   
+### Code
+
+[xxx.java]({{ site.url }}/assets/xxx.java)
+
+{% highlight java %}
+
+{% endhighlight %}
