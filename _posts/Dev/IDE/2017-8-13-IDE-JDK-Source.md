@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Eclipse JDK 소스 연결하기"
-categories: IDE
+categories: Java
 tags: IDE, Eclipse, Java, JDK 
 comments: true
 ---
