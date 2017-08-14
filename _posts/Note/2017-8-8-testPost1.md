@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Jekyll 블로그 태그 기능 붙이기"
+title: "First post"
 categories: Note
 tags:
 - Jekyll
@@ -33,4 +33,7 @@ tags:
 - Android
 ---
 
-this is test page
+## Intro
+
+This page made up for tagging.  
+

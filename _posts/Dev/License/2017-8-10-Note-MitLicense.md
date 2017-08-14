@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MIT License란?"
-categories: Note
+categories: License
 tags: MIT-License Copyright
 comments: true
 ---
