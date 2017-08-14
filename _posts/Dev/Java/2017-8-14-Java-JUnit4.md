@@ -275,6 +275,7 @@ Assert에 실패하거나 Exception이 발생하면 Failure 상태가 되며 테
 
 
 {% highlight java %}
+// 인자로 받은 두 개의 자료 형 배열이 같은지를 확인한다. (배열 노드 값의 비교)  
 assertArrayEquals(byte[] expecteds, byte[] actuals) 
 assertArrayEquals(char[] expecteds, char[] actuals) 
 assertArrayEquals(int[] expecteds, int[] actuals) 
@@ -282,9 +283,10 @@ assertArrayEquals(long[] expecteds, long[] actuals)
 assertArrayEquals(java.lang.Object[] expecteds, java.lang.Object[] actuals) 
 assertArrayEquals(short[] expecteds, short[] actuals) 
 {% endhighlight %}
-	: 인자로 받은 두 개의 자료 형 배열이 같은지를 확인한다.  
-	(배열 노드 값의 비교)  
+
 {% highlight java %}
+// 인자로 받은 두 개의 자료 형 배열이 같은지를 확인한다.
+// 두 객체가 같지 않은 경우(failure), 첫 번째 인자로 받은 message 가 출력된다. (배열 노드 값의 비교)
 assertArrayEquals(java.lang.String message, byte[] expecteds, byte[] actuals) 
 assertArrayEquals(java.lang.String message, char[] expecteds, char[] actuals) 
 assertArrayEquals(java.lang.String message, int[] expecteds, int[] actuals)
@@ -292,72 +294,80 @@ assertArrayEquals(java.lang.String message, long[] expecteds, long[] actuals)
 assertArrayEquals(java.lang.String message, java.lang.Object[] expecteds, java.lang.Object[] actuals) 
 assertArrayEquals(java.lang.String message, short[] expecteds, short[] actuals)
 {% endhighlight %}
-	: 인자로 받은 두 개의 자료 형 배열이 같은지를 확인한다.  
-	두 객체가 같지 않은 경우(failure), 첫 번째 인자로 받은 message 가 출력된다.  
-	(배열 노드 값의 비교)
-```
+
+{% highlight java %}
+// 인자로 받은 두 개의 자료 형 값이 같은지를 확인한다.
+// (배열의 경우 노드 값의 비교가 아닌, 가리키고 있는 참조 값의 비교임에 유의)
 assertEquals(double expected, double actual) 
 assertEquals(double expected, double actual, double delta)
 assertEquals(long expected, long actual)
 assertEquals(java.lang.Object[] expecteds, java.lang.Object[] actuals) 
 assertEquals(java.lang.Object expected, java.lang.Object actual) 
-```
-	: 인자로 받은 두 개의 자료 형 값이 같은지를 확인한다.  
-**(배열의 경우 노드 값의 비교가 아닌, 가리키고 있는 참조 값의 비교임에 유의)**
+{% endhighlight %}
+
 {% highlight java %}
 int[] array1 = {1, 2, 3};
 int[] array2 = {1, 2, 3};
 assertEquals(array1, array2); // failure
 {% endhighlight %}
-```
+
+{% highlight java %}
+// 인자로 받은 두 개의 자료 형 값이 같은지를 확인한다.
+// 두 값이 같지 않은 경우(failure), 첫 번째 인자로 받은 message 가 출력된다.
 assertEquals(java.lang.String message, double expected, double actual) 
 assertEquals(java.lang.String message, double expected, double actual, double delta) 
 assertEquals(java.lang.String message, long expected, long actual)
 assertEquals(java.lang.String message, java.lang.Object[] expecteds, java.lang.Object[] actuals) 
 assertEquals(java.lang.String message, java.lang.Object expected, java.lang.Object actual) 
-```
-	: 인자로 받은 두 개의 자료 형 값이 같은지를 확인한다.  
-두 값이 같지 않은 경우(failure), 첫 번째 인자로 받은 message 가 출력된다.  
-```
+{% endhighlight %}
+
+{% highlight java %}
+// 인자로 받은 값의 진위가 거짓인지 확인한다.
 assertFalse(boolean condition) 
 assertFalse(java.lang.String message, boolean condition) 
-```
-	: 인자로 받은 값의 진위가 거짓인지 확인한다.
-```
+{% endhighlight %}
+
+{% highlight java %}
+// 인자로 받은 값이 Null이 아닌지 확인한다.
 assertNotNull(java.lang.Object object)
 assertNotNull(java.lang.String message, java.lang.Object object) 
-```
-	: 인자로 받은 값이 Null이 아닌지 확인한다.
-```
+{% endhighlight %}
+
+{% highlight java %}
+// 인자로 받은 두 객체가 동일한 객체를 참조하지 않는 것을 확인한다.
 assertNotSame(java.lang.Object unexpected, java.lang.Object actual) 
 assertNotSame(java.lang.String message, java.lang.Object unexpected, java.lang.Object actual) 
-```
-	: 인자로 받은 두 객체가 동일한 객체를 참조하지 않는 것을 확인한다.
-```
+{% endhighlight %}
+
+{% highlight java %}
+// 인자로 받은 값이 Null 인지 확인한다.
 assertNull(java.lang.Object object) 
 assertNull(java.lang.String message, java.lang.Object object) 
-```
-	: 인자로 받은 값이 Null 인지 확인한다.
-```
+{% endhighlight %}
+
+{% highlight java %}
+// 인자로 받은 두 객체가 동일한 객체를 참조하는 것을 확인한다.
 assertSame(java.lang.Object expected, java.lang.Object actual) 
 assertSame(java.lang.String message, java.lang.Object expected, java.lang.Object actual) 
-```
-	: 인자로 받은 두 객체가 동일한 객체를 참조하는 것을 확인한다.
-```
+{% endhighlight %}
+
+{% highlight java %}
+// actual 인자가 matcher에서 지정된 조건을 만족하는지 확인한다.
 static <T> void assertThat(java.lang.String reason, T actual, org.hamcrest.Matcher<T> matcher)
 static <T> void assertThat(T actual, org.hamcrest.Matcher<T> matcher) 
-```
-	: actual 인자가 matcher에서 지정된 조건을 만족하는지 확인한다.
-```
+{% endhighlight %}
+
+{% highlight java %}
+// 인자로 받은 값의 진위가 참인지 확인한다.
 assertTrue(boolean condition)
 assertTrue(java.lang.String message, boolean condition) 
-```
-	: 인자로 받은 값의 진위가 참인지 확인한다.
-```
+{% endhighlight %}
+
+{% highlight java %}
+// 테스트를 무조건 실패하게 한다.
 fail()
 fail(java.lang.String message) 
-```
-	: 테스트를 무조건 실패하게 한다.
+{% endhighlight %}
 
 
 ### Annotation
