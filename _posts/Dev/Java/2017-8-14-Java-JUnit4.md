@@ -6,7 +6,7 @@ tags: JUnit4 Java Testcase 단위테스트 TDD
 comments: true
 ---
 
-### Intro
+## Intro
 **테스트 주도 개발**(TDD : Test Driven Development)은 코드 자체를 작성하기 전에 **코드에 대한 테스트**를 작성하는 것이다.  
 이러한 테스트는 단순히 사용자에게서 결함을 예방하는 데 머무르지 않고,  
 팀 차원에서 사용자가 필요로 하는 기능을 이해하고, 이러한 기능을 믿을 수 있고 예측 가능하게 전달하는 데 도움을 준다.
@@ -14,15 +14,18 @@ comments: true
 
 그럼 이제 테스트 주도 개발 의 기본이 되는 **단위테스트**를 배워보자.  
 
-#### 단위 테스트란?
+### 단위 테스트란?
 **단위 테스트**(Unit test)는 컴퓨터 프로그래밍에서 소스 코드의 특정 모듈이 의도된 대로 정확히 작동하는지 검증하는 절차다.  
 즉, 모든 함수와 메소드에 대한 **테스트 케이스**(Test case)를 작성하는 절차를 말한다. 
 
 
-다시말해, 내가 만든 **메소드에 대한 테스트 케이스**를 작성하여 잘 동작하는지 검사하는 과정을 단위테스트라 하고, 이러한 테스트와 개발을 병행하는 것을 TDD라 한다.
+다시말해, 내가 만든 **메소드에 대한 테스트 케이스**를 작성하여 잘 동작하는지 검사하는 과정을 단위테스트라 하고,   
+이러한 테스트와 개발을 병행하는 것을 TDD라 한다.  
+
+
 그렇다면 메소드에 대한 테스트 케이스는 어떻게 만드는 것일까?
 
-#### JUnit4
+### JUnit4
 자바에서 제공하는 테스트 프레임워크로 **JUnit4**를 이용하여 테스트 케이스를 작성할 수 있다.
 기본적으로 JUnit은 reflection을 통해 클래스 구조를 파악한 후 해당 클래스 내에서 테스트를 나타내는 것을 모두 실행한다.  
 
@@ -30,7 +33,7 @@ comments: true
 이제 Eclipse IDE에서 JUnit을 사용하여 단위테스트를 작성하는 법을 알아보자.
 
 
-### Usage
+## Usage
 테스트를 위한 새로운 프로젝트를 하나 만든다.  
 ![ newProject ]({{ site.url }}/assets/junit/newProject.png)  
 
@@ -45,7 +48,7 @@ comments: true
 
 
 다음으로 Library 탭을 눌러 JUnit4 라이브러리를 추가시킨다.  
-JUnit은 여러 자바 IDE에 기본적으로 탑재돼 있고 없을 경우 [다운로드](http://bit.ly/My9IXz)받을 수 있다.  
+JUnit은 여러 자바 IDE에 기본적으로 탑재돼 있고, 없을 경우 **[다운로드](http://bit.ly/My9IXz)**받을 수 있다.  
 ![ 4 ]({{ site.url }}/assets/junit/4.png)  
 ![ 5 ]({{ site.url }}/assets/junit/5.png)  
 ![ 6 ]({{ site.url }}/assets/junit/6.png)  
@@ -142,7 +145,8 @@ public class MyClassTest {
 {% endhighlight %}
 
 
-cf) `@Test` 테스트 어노테이션은 아래 [Annotation](#annotation)에서 기술하도록 하겠다. 간단하게 '기술된 코드가 테스트 케이스로 실행될 수 있음'을 나타낸다.  
+cf) `@Test` 테스트 어노테이션은 아래 [Annotation](#annotation)에서 기술하도록 하겠다.  
+간단하게 '기술된 코드가 테스트 케이스로 실행될 수 있음'을 나타낸다.  
 
 
 해당 테스트 케이스를 실행하는 방법은 테스트 케이스 클래스 우클릭 - Run As - JUnit Test를 누른다.  
@@ -151,9 +155,13 @@ cf) `@Test` 테스트 어노테이션은 아래 [Annotation](#annotation)에서 
 
 `fail()` 메소드는 JUnit에서 제공하는 메소드로 무조건실패를 반환한다.  
 따라서 결과가 아래와 같이 `Failures: 2` 로 나왔을 것이다.  
+
+
 cf) **TDD 황금률** : 실패하는 테스트 없이는 새 기능을 작성하지 말라.  
-즉 코드를 작성할 때 코드가 실패하는 것을 가정한 테스트를 우선 작성하는 것이 중요하다. 이러한 테스트를 통과시키고 리팩터링하는 것이 TDD주기의 핵심이다.  
-위 fail과는 상관없지만 갑자기 생각나서 적어보았다.
+즉 코드를 작성할 때 코드가 실패하는 것을 가정한 테스트를 우선 작성하는 것이 중요하다.  
+이러한 테스트를 통과시키고 리팩터링하는 것이 TDD주기의 핵심이다.  
+
+
 ![ 13 ]({{ site.url }}/assets/junit/13.png)  
 
 
@@ -201,12 +209,12 @@ public class MyClassTest {
 {% endhighlight %}
 
 
-위 코드에 사용 된 assert 메소드는 아래 [Assertion Method](#assertion-method)를 참고한다.  
-간단하게 인자로 받은 두 값을 비교하여 성공과 실패를 반환하는 메소드이다.
+위 코드에 사용 된 assert 메소드는 아래 [Assertion Method](#assertion-method-검증-메소드)를 참고한다.  
+간단하게 인자로 받은 두 값을 비교하여 성공과 실패를 반환하는 메소드이다.  
 ex) `assertEquals(300, 300);`  
-이 메소드는 `Integer` 값으로 받은 300과 300을 비교하여 같은지를 반환한다. 두 값은 같으므로 Test 성공으로 이어진다.
+이 메소드는 `Integer` 값으로 받은 300과 300을 비교하여 같은지를 반환한다. 두 값은 같으므로 Test 성공으로 이어진다.  
 하지만 `assertEquals(300, 400);`  
-위와 같은 경우는 두 값이 다르므로 Failure를 반환하며 Test 실패로 이어진다.
+위와 같은 경우는 두 값이 다르므로 Failure를 반환하며 Test 실패로 이어진다.  
 
 
 위 `MyClassTest` 를 실행하게 되면 성공을 반환할 것 같지만 테스트 실패가 뜨게된다.  
@@ -218,19 +226,19 @@ Eclipse에서는 어느곳에서 실패를 하게 되었는지 알려주는 Fail
 
 
 자세히 살펴보면 `MyClassTest.java:30`에서 AssertionError가 발생한 것을 알 수 있다.  
-바로 아래줄인 at으로 시작하는 `at xyz.nakzzi.junit.MyClassTest.testField(MyClassTest.java:30)`을 더블 클릭 하면 해당 메소드로 찾아간다.
+바로 아래줄인 at으로 시작하는 `at xyz.nakzzi.junit.MyClassTest.testField(MyClassTest.java:30)`을 더블 클릭 하면 해당 메소드로 찾아간다.  
 ![ 15 ]({{ site.url }}/assets/junit/15.png) 
 
 
 JUnit에서 제공하는 Assertion Method 중 assertEquals는 값에 대한 비교이므로 array의 참조값을 비교한다.  
-따라서 array의 값을 비교하려면 `assertArrayEquals(cArray, myclass.myCharArray);`로 바꿔줘야 한다.
+따라서 array의 값을 비교하려면 `assertArrayEquals(cArray, myclass.myCharArray);`로 바꿔줘야 한다.  
 
 
 다음 테스트를 진행하기전 위 `testField()` 메소드의 `@Test` 어노테이션 옆에 `@Ignore`를 붙이고 `org.junit.Ignore;`를 import 시켜보자.  
 이렇게 하면 `testField()`메소드는 해당 테스트 케이스의 **테스트 대상에서 제외**될 것이다.
 
 
-다음은 `sum` 메소드에 대한 테스트 코드이다.
+다음은 `sum` 메소드에 대한 테스트 코드이다.  
 
 {% highlight java %}
 @Test
@@ -260,30 +268,30 @@ public void testInitInstance() {
 
 
 ### Assertion Method (검증 메소드)
-위 코드에 import된 `static org.junit.Assert.*;`은  
+위 코드에 import된 `org.junit.Assert.*;`은  
 테스트 작성에 유용하게 사용되는 **Assertion Method**이다.  
 Assert에 실패하거나 Exception이 발생하면 Failure 상태가 되며 테스트가 종료된다.  
 각 Method들은 정적으로 선언되어 있으므로 Assert.assertEquals(…)와 같이 참조할 수도 있다.
 
 
-```
+{% highlight java %}
 assertArrayEquals(byte[] expecteds, byte[] actuals) 
 assertArrayEquals(char[] expecteds, char[] actuals) 
 assertArrayEquals(int[] expecteds, int[] actuals) 
 assertArrayEquals(long[] expecteds, long[] actuals) 
 assertArrayEquals(java.lang.Object[] expecteds, java.lang.Object[] actuals) 
 assertArrayEquals(short[] expecteds, short[] actuals) 
-```
+{% endhighlight %}
 	: 인자로 받은 두 개의 자료 형 배열이 같은지를 확인한다.  
 	(배열 노드 값의 비교)  
-```
+{% highlight java %}
 assertArrayEquals(java.lang.String message, byte[] expecteds, byte[] actuals) 
 assertArrayEquals(java.lang.String message, char[] expecteds, char[] actuals) 
 assertArrayEquals(java.lang.String message, int[] expecteds, int[] actuals)
 assertArrayEquals(java.lang.String message, long[] expecteds, long[] actuals)
 assertArrayEquals(java.lang.String message, java.lang.Object[] expecteds, java.lang.Object[] actuals) 
 assertArrayEquals(java.lang.String message, short[] expecteds, short[] actuals)
-```
+{% endhighlight %}
 	: 인자로 받은 두 개의 자료 형 배열이 같은지를 확인한다.  
 	두 객체가 같지 않은 경우(failure), 첫 번째 인자로 받은 message 가 출력된다.  
 	(배열 노드 값의 비교)
@@ -424,7 +432,7 @@ public class classTest() {
 }
 ```
 
-#### 실행 순서
+### 실행 순서
 **실행 순서**는 다음과 같다.  
 test1()과 test2()가 있다고 가정하면..  
 
