@@ -35,5 +35,7 @@ tags:
 
 ## Intro
 
+The Note to scribble down about development knowledge and my clumsy soft skills. 
+<a href="https://github.com/cholnh/">@Nakzzi</a>
 This page made up for tagging.  
 
