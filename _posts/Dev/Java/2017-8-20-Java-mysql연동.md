@@ -1,25 +1,25 @@
 ---
 layout: post
-title:  "Java MySQL DB ¿¬°á"
+title:  "Java MySQL DB ì—°ê²°"
 categories: Java
 tags: Java MySQL DB 
 comments: true
 ---
 
 ### Intro
-Java WEB°³¹ßÀ» À§ÇØ ÇÊ¿äÇÑ    
-**MySQL community server 5.7** ¿¬°á ¹æ¹ı
+Java WEBê°œë°œì„ ìœ„í•´ í•„ìš”í•œ    
+**MySQL community server 5.7** ì—°ê²° ë°©ë²•
 
 
 ### How to
 
-¿ì¼± **[MySQL community server 5.7](https://dev.mysql.com/downloads/mysql/)À» ¼³Ä¡**ÇÑ´Ù.
+ìš°ì„  **[MySQL community server 5.7](https://dev.mysql.com/downloads/mysql/)ì„ ì„¤ì¹˜**í•œë‹¤.
 
 
 ![ 1 ]({{ site.url }}/assets/mysql/1.png)
 
 
-Developer Default ¼±ÅÃ - ¼³Ä¡ ÁøÇà
+Developer Default ì„ íƒ - ì„¤ì¹˜ ì§„í–‰
 
 
 ![ 2 ]({{ site.url }}/assets/mysql/2.png)
@@ -31,56 +31,56 @@ Developer Default ¼±ÅÃ - ¼³Ä¡ ÁøÇà
 ![ 4 ]({{ site.url }}/assets/mysql/4.png)
 
 
-¼³Ä¡ ¿Ï·á ÈÄ MySQL Command Line Client ½ÇÇà
+ì„¤ì¹˜ ì™„ë£Œ í›„ MySQL Command Line Client ì‹¤í–‰
 
 
 ![ 5 ]({{ site.url }}/assets/mysql/5.png)
 
 
-Java¿Í ¿¬µ¿À» ÇÏ±â À§ÇÑ **[Connector J ¼³Ä¡](https://dev.mysql.com/downloads/connector/j/)**
+Javaì™€ ì—°ë™ì„ í•˜ê¸° ìœ„í•œ **[Connector J ì„¤ì¹˜](https://dev.mysql.com/downloads/connector/j/)**
 
 
 ![ 6 ]({{ site.url }}/assets/mysql/6.png)
 
 
-`.TAR`  ¶Ç´Â `.ZIP` ÆÄÀÏ ³» `mysql-connector-java-5.1.40-bin.jar` ¸¦  
-**ÇÁ·ÎÁ§Æ® -  WebContent - WEB-INF - lib ¿¡ º¹»ç**ÇÑ´Ù.
+`.TAR`  ë˜ëŠ” `.ZIP` íŒŒì¼ ë‚´ `mysql-connector-java-5.1.40-bin.jar` ë¥¼  
+**í”„ë¡œì íŠ¸ -  WebContent - WEB-INF - lib ì— ë³µì‚¬**í•œë‹¤.
 
 ![ 7 ]({{ site.url }}/assets/mysql/7.png)
 
 
-**Window - Show View - Data source explorer ¼±ÅÃ**  
-- ¾øÀ» °æ¿ì : **Window - Show View - other - Data Management ³» Data source explorer ¼±ÅÃ**)  
-- ÀÌ°Íµµ ¾øÀ» °æ¿ì : **Help - Install New Software ÀÌµ¿**
+**Window - Show View - Data source explorer ì„ íƒ**  
+- ì—†ì„ ê²½ìš° : **Window - Show View - other - Data Management ë‚´ Data source explorer ì„ íƒ**)  
+- ì´ê²ƒë„ ì—†ì„ ê²½ìš° : **Help - Install New Software ì´ë™**
 
 ![ 8 ]({{ site.url }}/assets/mysql/8.png)
 
 
-**Add¡¦ ¼±ÅÃ**
+**Addâ€¦ ì„ íƒ**
 
 ![ 9 ]({{ site.url }}/assets/mysql/9.png)
 
 
-Location ¿¡ ÀÔ·Â :  `url + ¹öÀü` (¾Æ·¡ ¿¹½Ã´Â neon ¹öÀü)  
+Location ì— ì…ë ¥ :  `url + ë²„ì „` (ì•„ë˜ ì˜ˆì‹œëŠ” neon ë²„ì „)  
 Ex) `http://download.eclipse.org/releases/neon`
 
 ![ 10 ]({{ site.url }}/assets/mysql/10.png)
 
 
-**Database Development** ¼±ÅÃ ÈÄ Next ´­·¯ ¼³Ä¡ 
+**Database Development** ì„ íƒ í›„ Next ëˆŒëŸ¬ ì„¤ì¹˜ 
 
 ![ 11 ]({{ site.url }}/assets/mysql/11.png)
 
-**Database Connections - ¿À¸¥ÂÊ Å¬¸¯ - New - MySQL ¼±ÅÃ**
+**Database Connections - ì˜¤ë¥¸ìª½ í´ë¦­ - New - MySQL ì„ íƒ**
 
 ![ 12 ]({{ site.url }}/assets/mysql/12.png)
 
 ![ 13 ]({{ site.url }}/assets/mysql/13.png)
 
-Test Connection ´­·¯¼­ **Ping Test**
+Test Connection ëˆŒëŸ¬ì„œ **Ping Test**
 
 ![ 14 ]({{ site.url }}/assets/mysql/14.png)
 
    
-**¿¬µ¿ ¿Ï·á**
+**ì—°ë™ ì™„ë£Œ**
 
