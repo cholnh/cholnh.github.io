@@ -7,7 +7,7 @@ comments: true
 ---
 
 ### Intro
-
+<br/>
 **[깃(Git)이란](https://git-scm.com/downloads)** 형상 관리(버전 관리)를 해주는 시스템이다.  
 진행하는 프로젝트의 규모가 커져 여러 사람들이 협력하여 진행한다고 가정 해보자.   
 많은 수의 개발 인원이 진행함에 따라 **수많은 변경을 제어할 수 있는 시스템**이 없다면 프로젝트는 꼬이고 꼬일것이다.  
@@ -33,7 +33,7 @@ comments: true
 <br/>
 <br/>
 ### How to
-
+<br/>
 **[Github 홈페이지](https://github.com/)**에 접속하여 회원가입을 진행한다.  
 <br/>
 ![ 1 ]({{ site.url }}/assets/gitStart/1.png){: width="100%" height="100%"}
@@ -74,7 +74,7 @@ Your repositories메뉴에 있는 **New repository** 클릭
 
 <br/>
 ### Result
-
+<br/>
 저장소에 텍스트파일이 추가되었다.  
 <br/>
 ![ 8 ]({{ site.url }}/assets/gitStart/8.png){: width="100%" height="100%"}
