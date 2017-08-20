@@ -41,36 +41,45 @@ comments: true
 
 Your repositories메뉴에 있는 **New repository** 클릭  
 (repository는 프로젝트가 저장되는 저장소의 단위이다)  
+<br/>
 ![ 2 ]({{ site.url }}/assets/gitStart/2.png)
-
+<br/>
 
 프로젝트 이름과 간단한 설명을 적고 위에서 말한 공개범위(public/private)를 설정한다.  
 (README는 이 저장소의 설명, 사용법 등를 적는 곳이다)  
+<br/>
 ![ 3 ]({{ site.url }}/assets/gitStart/3.png)
-
+<br/>
 
 하나의 프로젝트 저장소가 만들어졌다.  
+<br/>
 ![ 4 ]({{ site.url }}/assets/gitStart/4.png)
-
+<br/>
 
 **Create new file**을 눌러 텍스트파일을 하나 추가시켜 보자.  
+<br/>
 ![ 5 ]({{ site.url }}/assets/gitStart/5.png)
-
+<br/>
 
 파일 이름을 적고, 아래 텍스트 창에 내용을 적는다.  
+<br/>
 ![ 6 ]({{ site.url }}/assets/gitStart/6.png)
-
+<br/>
 
 위 텍스트 파일에 대한 설명(내가 무엇을 진행하였는지를 적음)을 적고 Commit을 하여, 텍스트 파일을 저장소에 등록시킨다.  
 (Commit이란 완성된 작업물에 대한 작업이력 기록이다)
+<br/>
 ![ 7 ]({{ site.url }}/assets/gitStart/7.png)
+<br/>
 
-
+<br/>
 ### Result
 
 저장소에 텍스트파일이 추가되었다.  
+<br/>
 ![ 8 ]({{ site.url }}/assets/gitStart/8.png)
+<br/>
 
-
+<br/>
 다음은 깃허브와 IDE를 연동하여 프로젝트를 진행하는 방법이다. 
  [Github - Eclipse 연동하기]({{ site.url }}/Dev/Git-github와eclipse연동.html)
