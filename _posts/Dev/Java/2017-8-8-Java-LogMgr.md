@@ -5,9 +5,9 @@ categories: Java
 tags: Java Log4j logfile
 comments: true
 ---
-
+<br/>
 ### Intro
-
+<br/>
 [Log4j 1.2.x]({{ site.url }}/assets/log/log4j-1.2.17.jar)를 사용할 때 여러 로그파일을 만들 수 있게 하는 클래스이다.
 
 로그파일을 log4j.properties 내에서 정적으로 지정한 것만 사용하는게 불편해서 만들어 보았다.
@@ -15,8 +15,9 @@ comments: true
 주의)[log4j.properties]({{ site.url }}/assets/log/log4j.properties)는 my project/conf 폴더 내에 위치시킨다.  
   
   
-   
+<br/>   
 ### Usage
+<br/>
 {% highlight java %}
 /** 로그 */
 static Logger slogger = LogMgr.getInstance("Serverlog");
@@ -30,19 +31,22 @@ public void test() {
 }
 {% endhighlight %}  
   
-   
+<br/>   
 ### Result
-
-**콘솔 결과**
+<br/>
+**콘솔 결과**  
+<br/>
 ![result]({{ site.url }}/assets/log/logmgr_result.png)
- 
-**로그파일 생성 결과**
-![result]({{ site.url }}/assets/log/logmgr_result2.png)
-  
-  
-   
-### Code
 
+<br/> 
+**로그파일 생성 결과**  
+<br/>
+![result]({{ site.url }}/assets/log/logmgr_result2.png)
+<br/>  
+  
+<br/>   
+### Code
+<br/>
 [LogMgr.java]({{ site.url }}/assets/log/LogMgr.java)
 
 {% highlight java %}

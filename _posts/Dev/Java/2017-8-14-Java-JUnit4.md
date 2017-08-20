@@ -5,16 +5,18 @@ categories: Java
 tags: JUnit4 Java Testcase 단위테스트 TDD
 comments: true
 ---
-
+<br/>
 ## Intro
+<br/>
 **테스트 주도 개발**(TDD : Test Driven Development)은 코드 자체를 작성하기 전에 **코드에 대한 테스트**를 작성하는 것이다.  
 이러한 테스트는 단순히 사용자에게서 결함을 예방하는 데 머무르지 않고,  
 팀 차원에서 사용자가 필요로 하는 기능을 이해하고, 이러한 기능을 믿을 수 있고 예측 가능하게 전달하는 데 도움을 준다.
 
 
-그럼 이제 테스트 주도 개발 의 기본이 되는 **단위테스트**를 배워보자.  
-
+그럼 이제 테스트 주도 개발 의 기본이 되는 **단위테스트**를 알아보자.  
+<br/>
 ### 단위 테스트란?
+<br/>
 **단위 테스트**(Unit test)는 컴퓨터 프로그래밍에서 소스 코드의 특정 모듈이 의도된 대로 정확히 작동하는지 검증하는 절차다.  
 즉, 모든 함수와 메소드에 대한 **테스트 케이스**(Test case)를 작성하는 절차를 말한다. 
 
@@ -24,35 +26,42 @@ comments: true
 
 
 그렇다면 메소드에 대한 테스트 케이스는 어떻게 만드는 것일까?
-
+<br/>
 ### JUnit4
+<br/>
 자바에서 제공하는 테스트 프레임워크로 **JUnit4**를 이용하여 테스트 케이스를 작성할 수 있다.
 기본적으로 JUnit은 reflection을 통해 클래스 구조를 파악한 후 해당 클래스 내에서 테스트를 나타내는 것을 모두 실행한다.  
 
 
 이제 Eclipse IDE에서 JUnit을 사용하여 단위테스트를 작성하는 법을 알아보자.
 
-
+<br/>
 ## Usage
+<br/>
 테스트를 위한 새로운 프로젝트를 하나 만든다.  
-![ newProject ]({{ site.url }}/assets/junit/newProject.png)  
+<br/>
+![ newProject ]({{ site.url }}/assets/junit/newProject.png){: width="100%" height="100%"}  
 
+<br/>
 
-프로젝트 이름을 적고 Next를 누른다.
-![ 1 ]({{ site.url }}/assets/junit/1.png)  
+프로젝트 이름을 적고 Next를 누른다.  
+<br/>
+![ 1 ]({{ site.url }}/assets/junit/1.png){: width="100%" height="100%"}  
+<br/>
 
-
-화살표로 표시된 소스폴더 모양 아이콘을 눌러 test 디렉토리를 추가시킨다.
-![ 2 ]({{ site.url }}/assets/junit/2.png)  
-![ 3 ]({{ site.url }}/assets/junit/3.png)  
-
+화살표로 표시된 소스폴더 모양 아이콘을 눌러 test 디렉토리를 추가시킨다.  
+<br/>
+![ 2 ]({{ site.url }}/assets/junit/2.png){: width="100%" height="100%"}  
+![ 3 ]({{ site.url }}/assets/junit/3.png){: width="100%" height="100%"}  
+<br/>
 
 다음으로 Library 탭을 눌러 JUnit4 라이브러리를 추가시킨다.  
 JUnit은 여러 자바 IDE에 기본적으로 탑재돼 있고, 없을 경우 **[다운로드](http://bit.ly/My9IXz)**받을 수 있다.  
-![ 4 ]({{ site.url }}/assets/junit/4.png)  
-![ 5 ]({{ site.url }}/assets/junit/5.png)  
-![ 6 ]({{ site.url }}/assets/junit/6.png)  
-
+<br/>
+![ 4 ]({{ site.url }}/assets/junit/4.png){: width="100%" height="100%"}  
+![ 5 ]({{ site.url }}/assets/junit/5.png){: width="100%" height="100%"}  
+![ 6 ]({{ site.url }}/assets/junit/6.png){: width="100%" height="100%"}  
+<br/>
 
 자, 이제 JUnit으로 개발을 병행할 기본적인 준비가 되었다.  
 간단한 코드를 테스트 해보자.  
@@ -91,21 +100,25 @@ public class MyClass {
 
 다음은 `MyClass`에 대한 테스트 케이스를 만드는 방법이다.  
 위에서 만든 test 디렉토리를 우클릭하고 New - JUnit Test Case를 눌러 생성한다.  
-![ 7 ]({{ site.url }}/assets/junit/7.png)  
+<br/>
+![ 7 ]({{ site.url }}/assets/junit/7.png){: width="100%" height="100%"}  
+<br/>
 
-
-JUnit Test Case가 없을 경우 Other에서 JUnit을 검색하여 추가시킨다.
-![ 8 ]({{ site.url }}/assets/junit/8.png)  
-
+JUnit Test Case가 없을 경우 Other에서 JUnit을 검색하여 추가시킨다.  
+<br/>
+![ 8 ]({{ site.url }}/assets/junit/8.png){: width="100%" height="100%"}  
+<br/>
 
 간단하게 테스트 케이스 이름을 작성하고 아래에 Browse를 누른다.  
-![ 9 ]({{ site.url }}/assets/junit/9.png)  
+<br/>
+![ 9 ]({{ site.url }}/assets/junit/9.png){: width="100%" height="100%"}  
+<br/>
 
-
-테스트를 진행할 `MyClass`를 검색하고, 테스트할 메소드를 선택한다.
-![ 10 ]({{ site.url }}/assets/junit/10.png)  
-![ 11 ]({{ site.url }}/assets/junit/11.png)  
-
+테스트를 진행할 `MyClass`를 검색하고, 테스트할 메소드를 선택한다.  
+<br/>
+![ 10 ]({{ site.url }}/assets/junit/10.png){: width="100%" height="100%"}  
+![ 11 ]({{ site.url }}/assets/junit/11.png){: width="100%" height="100%"}  
+<br/>
 
 아래와 같은 테스트 코드가 작성되었을 것이다.  
 
@@ -150,8 +163,9 @@ cf) `@Test` 테스트 어노테이션은 아래 [Annotation](#annotation)에서 
 
 
 해당 테스트 케이스를 실행하는 방법은 테스트 케이스 클래스 우클릭 - Run As - JUnit Test를 누른다.  
-![ 12 ]({{ site.url }}/assets/junit/12.png)  
-
+<br/>
+![ 12 ]({{ site.url }}/assets/junit/12.png){: width="100%" height="100%"}  
+<br/>
 
 `fail()` 메소드는 JUnit에서 제공하는 메소드로 무조건실패를 반환한다.  
 따라서 결과가 아래와 같이 `Failures: 2` 로 나왔을 것이다.  
@@ -161,9 +175,9 @@ cf) **TDD 황금률** : 실패하는 테스트 없이는 새 기능을 작성하
 즉 코드를 작성할 때 코드가 실패하는 것을 가정한 테스트를 우선 작성하는 것이 중요하다.  
 이러한 테스트를 통과시키고 리팩터링하는 것이 TDD주기의 핵심이다.  
 
-
-![ 13 ]({{ site.url }}/assets/junit/13.png)  
-
+<br/>
+![ 13 ]({{ site.url }}/assets/junit/13.png){: width="100%" height="100%"}  
+<br/>
 
 우선 `MyClass`의 Field값에 대한 테스트 코드를 작성해보자.
 
@@ -222,13 +236,15 @@ ex) `assertEquals(300, 300);`
 
 
 Eclipse에서는 어느곳에서 실패를 하게 되었는지 알려주는 Failure Trace를 제공한다.  
-![ 14 ]({{ site.url }}/assets/junit/14.png) 
-
+<br/>
+![ 14 ]({{ site.url }}/assets/junit/14.png){: width="100%" height="100%"}  
+<br/>
 
 자세히 살펴보면 `MyClassTest.java:30`에서 AssertionError가 발생한 것을 알 수 있다.  
 바로 아래줄인 at으로 시작하는 `at xyz.nakzzi.junit.MyClassTest.testField(MyClassTest.java:30)`을 더블 클릭 하면 해당 메소드로 찾아간다.  
-![ 15 ]({{ site.url }}/assets/junit/15.png) 
-
+<br/>
+![ 15 ]({{ site.url }}/assets/junit/15.png){: width="100%" height="100%"}  
+<br/>
 
 JUnit에서 제공하는 Assertion Method 중 assertEquals는 값에 대한 비교이므로 array의 참조값을 비교한다.  
 따라서 array의 값을 비교하려면 `assertArrayEquals(cArray, myclass.myCharArray);`로 바꿔줘야 한다.  
@@ -247,7 +263,7 @@ public void testSum() {
 }
 {% endhighlight %}
 `sum(2, 2)`의 결과값은 4가 예측되며 일부러 3을 assert 해보았다.  
-![ 16 ]({{ site.url }}/assets/junit/16.png)  
+![ 16 ]({{ site.url }}/assets/junit/16.png){: width="100%" height="100%"}  
 역시 Failure Trace를 보면 4가 기대되는 가운데 3이 결과로 왔다고 찍힌다.  
 
 
@@ -266,8 +282,9 @@ public void testInitInstance() {
 `initInstance()`메소드를 통해 객체를 생성하였고, 두번째 `assertNotNull`울 통과하였다.
 
 
-
+<br/>
 ### Assertion Method (검증 메소드)
+<br/>
 위 코드에 import된 `org.junit.Assert.*;`은  
 테스트 작성에 유용하게 사용되는 **Assertion Method**이다.  
 Assert에 실패하거나 Exception이 발생하면 Failure 상태가 되며 테스트가 종료된다.  
@@ -369,9 +386,9 @@ fail()
 fail(java.lang.String message) 
 {% endhighlight %}
 
-
+<br/>
 ### Annotation
-
+<br/>
 `@Test`
 **Test Annotation**은 public void method로 기술된 코드가 테스트 케이스로 실행될 수 있음을 나타낸다.
 JUnit 실행 시 테스트 클래스의 Instance를 생성한 후 Test Annotation을 찾아 실행하며, 테스트 중 발생한 예외에 대해서는 JUnit에 의해 실패로 보고된다.  
@@ -441,13 +458,14 @@ public class classTest() {
 	public void test2() {…}
 }
 ```
-
+<br/>
 ### 실행 순서
+<br/>
 **실행 순서**는 다음과 같다.  
 test1()과 test2()가 있다고 가정하면..  
 
-
+<br/>
 `@BeforeClass` 메소드 -> `@Before 메소드` -> `@Test` **test1 메소드** -> `@After` 메소드 -> `@Before 메소드` -> `@Test` **test2** 메소드 -> `@After` 메소드 -> `@AfterClass` 메소드
 
-
+<br/>
 **cf) Annotation과 Assertion Method는 [JUnit javadoc](http://junit.sourceforge.net/javadoc/org/junit/package-summary.html)에 자세히 요약되어 있다.**
