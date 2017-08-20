@@ -20,12 +20,11 @@ comments: true
 - Git
 
 깃을 설치하면 다음과 같은 터미널(bash)창에서 작업이 이루어 진다.  
-<<<<<<< HEAD
+<br/>
 <img src="{{ site.url }}/assets/gitstart/gitbash.png" style="width:100%; height:100%;">
 
 
-=======
->>>>>>> 1a1c36504036eed7340211c215f2e9e550c4eb3f
+
 <br/>
 ![ gitbash ]({{ site.url }}/assets/gitStart/gitbash.png)
 <br/>
