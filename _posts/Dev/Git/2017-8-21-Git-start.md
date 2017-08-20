@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title:  "Git Hub 시작"
 categories: Git
