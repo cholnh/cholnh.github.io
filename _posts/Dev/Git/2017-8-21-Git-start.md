@@ -21,7 +21,7 @@ comments: true
 
 깃을 설치하면 다음과 같은 터미널(bash)창에서 작업이 이루어 진다.  
 <br/>
-<img src="/assets/gitstart/gitbash.png" style="width:100%; height:100%;">
+<img src="https://github.com/cholnh/cholnh.github.io/assets/gitstart/gitbash.png" style="width:100%; height:100%;">
 <br/>
 
 **[Github](https://github.com/)**는 깃 작업 저장소를 호스팅해주는 페이지이다.  
