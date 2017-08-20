@@ -13,27 +13,27 @@ comments: true
 많은 수의 개발 인원이 진행함에 따라 **수많은 변경을 제어할 수 있는 시스템**이 없다면 프로젝트는 꼬이고 꼬일것이다.  
 형상 관리는 이러한 상황을 제어할 수 있도록 도와주는 도구로서, 프로젝트의 소스 변경 이력을 파악하여 보여주거나 과거 시점으로 되돌리기 등 프로젝트 개발을 쉽게 진행하도록 돕는다.  
 
-<br>
+<br/>
 형상 관리 시스템은 여러 종류가 있다.  
 - CVS(Concurrent Versions System)
 - SVN(Sub Version)
 - RCS(Revision Control System)
 - Git
 
-<br>
+<br/>
 깃을 설치하면 다음과 같은 터미널(bash)창에서 작업이 이루어 진다.  
 ![ gitbash ]({{ site.url }}/assets/gitstart/gitbash.png)
 
-<br>
+<br/>
 **[Github](https://github.com/)**는 깃 작업 저장소를 호스팅해주는 페이지이다.  
 진행하는 프로젝트를 public(공개범위)으로 올릴 경우, 오픈소스처럼 모두에게 공개되며 무료로 깃허브를 이용할 수 있다.  
 하지만 private 프로젝트의 경우 돈을 지불해야 한다.  
 
-<br>
+<br/>
 이제 깃허브를 시작하여 친구들 또는 나아가 전세계 사람들과 프로젝트를 제작하는 법을 알아보자.  
 
-<br>
-<br>
+<br/>
+<br/>
 ### How to
 
 **[Github 홈페이지](https://github.com/)**에 접속하여 회원가입을 진행한다.  
