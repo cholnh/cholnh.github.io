@@ -7,11 +7,11 @@ comments: true
 ---
 
 ### How to
-
+<br/>
 우선 Github에 진행할 프로젝트가 저장 될 Repository(저장소)를 하나 만든다.  
 (만드는 방법 : [Git Hub 시작]({{ site.url }}/git/Git-start.html))
 
-
+<br/>
 진행할 자바 프로젝트를 하나 생성한다.  
 <br/>
 ![ 1 ]({{ site.url }}/assets/newRepos/1.png){: width="100%" height="100%"}
@@ -41,12 +41,12 @@ comments: true
 <br/>
 
 URI에 나의 github 저장소 주소를 적고, User에 깃허브 아이디와 패스워드를 적는다.  
-**ex) https://github.com/깃아이디/프로젝트이름**
+**ex) https://github.com/깃아이디/프로젝트이름**  
 <br/>
 ![ 7 ]({{ site.url }}/assets/newRepos/7.png){: width="100%" height="100%"}
 <br/>
 
-New Remote... 선택
+New Remote... 선택  
 <br/>
 ![ 8 ]({{ site.url }}/assets/newRepos/8.png){: width="100%" height="100%"}
 <br/>
@@ -56,18 +56,18 @@ New Remote... 선택
 ![ 9 ]({{ site.url }}/assets/newRepos/9.png){: width="100%" height="100%"}
 <br/>
 
-Reference 칸에 `m`을 적으면 `master branch`가 나올것이다.
+Reference 칸에 `m`을 적으면 `master branch`가 나올것이다.  
 <br/>
 ![ 10 ]({{ site.url }}/assets/newRepos/10.png){: width="100%" height="100%"}
 <br/>
 
-선택 후 Finish를 누르면 다음과 같이 연결 된 모습을 볼 수 있다.
+선택 후 Finish를 누르면 다음과 같이 연결 된 모습을 볼 수 있다.  
 <br/>
 ![ 11 ]({{ site.url }}/assets/newRepos/11.png){: width="100%" height="100%"}
 <br/>
 
 깃허브에도 해당 프로젝트를 등록 시켜보자.  
-**프로젝트 우클릭 - Team - Commit 선택**
+**프로젝트 우클릭 - Team - Commit 선택**  
 <br/>
 ![ 12 ]({{ site.url }}/assets/newRepos/12.png){: width="100%" height="100%"}
 <br/>
@@ -93,7 +93,7 @@ Push 단계에서 원격 저장소로의 전송이 이루어 진다.
 ![ 14 ]({{ site.url }}/assets/newRepos/14.png){: width="100%" height="100%"}
 <br/>
 
-Branch에 `master`를 적고 Next -  Finish - Ok
+Branch에 `master`를 적고 Next -  Finish - Ok  
 <br/>
 ![ 15 ]({{ site.url }}/assets/newRepos/15.png){: width="100%" height="100%"}
 ![ 16 ]({{ site.url }}/assets/newRepos/16.png){: width="100%" height="100%"}
@@ -111,19 +111,19 @@ github와 ide간의 연동도 하였고, github에 새 프로젝트도 올려놓
 ![ 19 ]({{ site.url }}/assets/newRepos/19.png){: width="100%" height="100%"}
 <br/>
 
-위와 같이 Unstaged Changes 내용을 Staged Changes 칸으로 드래그 시킨다.
+위와 같이 Unstaged Changes 내용을 Staged Changes 칸으로 드래그 시킨다.  
 <br/>
 ![ 20 ]({{ site.url }}/assets/newRepos/20.png){: width="100%" height="100%"}
 <br/>
 
-Commit 설명을 적고 **Commit and Push 선택** (위와 같다..)
+Commit 설명을 적고 **Commit and Push 선택** (위와 같다..)  
 <br/>
 ![ 21 ]({{ site.url }}/assets/newRepos/21.png){: width="100%" height="100%"}
 <br/>
 
 <br/>
 ### Result
-
+<br/>
 Push가 완료되었으면 **자신의 github 페이지**로 가서 정상적으로 소스가 등록되었는지 확인한다.  
 <br/>
 ![ 22 ]({{ site.url }}/assets/newRepos/22.png){: width="100%" height="100%"}
