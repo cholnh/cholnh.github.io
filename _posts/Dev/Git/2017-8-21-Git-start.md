@@ -67,7 +67,7 @@ Your repositories메뉴에 있는 **New repository** 클릭
 <br/>
 
 위 텍스트 파일에 대한 설명(내가 무엇을 진행하였는지를 적음)을 적고 Commit을 하여, 텍스트 파일을 저장소에 등록시킨다.  
-(Commit이란 완성된 작업물에 대한 작업이력 기록이다)
+(Commit이란 완성된 작업물에 대한 작업이력 기록이다)  
 <br/>
 ![ 7 ]({{ site.url }}/assets/gitStart/7.png){: width="100%" height="100%"}
 <br/>
@@ -82,4 +82,4 @@ Your repositories메뉴에 있는 **New repository** 클릭
 
 <br/>
 다음은 깃허브와 IDE를 연동하여 프로젝트를 진행하는 방법이다. 
- [Github - Eclipse 연동하기]({{ site.url }}/Dev/Git-github와eclipse연동.html)
+ [Github - Eclipse 연동하기]({{ site.url }}/git/Git-github와eclipse연동.html)
