@@ -21,9 +21,9 @@ comments: true
 
 깃을 설치하면 다음과 같은 터미널(bash)창에서 작업이 이루어 진다.  
 <br/>
-<div style="width:100%; height:100%;"><img src="https://raw.githubusercontent.com/cholnh/cholnh.github.io/master/assets/gitStart/gitbash.png"><div>
+<img src="https://raw.githubusercontent.com/cholnh/cholnh.github.io/master/assets/gitStart/gitbash.png" style="width:100%; height:100%;">
 <br/>
-
+![ gitbash ]({{ site.url }}/assets/gitStart/gitbash.png | width=100)
 **[Github](https://github.com/)**는 깃 작업 저장소를 호스팅해주는 페이지이다.  
 진행하는 프로젝트를 public(공개범위)으로 올릴 경우, 오픈소스처럼 모두에게 공개되며 무료로 깃허브를 이용할 수 있다.  
 하지만 private 프로젝트의 경우 돈을 지불해야 한다.  
@@ -36,40 +36,40 @@ comments: true
 
 **[Github 홈페이지](https://github.com/)**에 접속하여 회원가입을 진행한다.  
 <br/>
-![ 1 ]({{ site.url }}/assets/gitStart/1.png)
+![ 1 ]({{ site.url }}/assets/gitStart/1.png | width=100)
 <br/>
 
 Your repositories메뉴에 있는 **New repository** 클릭  
 (repository는 프로젝트가 저장되는 저장소의 단위이다)  
 <br/>
-![ 2 ]({{ site.url }}/assets/gitStart/2.png)
+![ 2 ]({{ site.url }}/assets/gitStart/2.png | width=100)
 <br/>
 
 프로젝트 이름과 간단한 설명을 적고 위에서 말한 공개범위(public/private)를 설정한다.  
 (README는 이 저장소의 설명, 사용법 등를 적는 곳이다)  
 <br/>
-![ 3 ]({{ site.url }}/assets/gitStart/3.png)
+![ 3 ]({{ site.url }}/assets/gitStart/3.png | width=100)
 <br/>
 
 하나의 프로젝트 저장소가 만들어졌다.  
 <br/>
-![ 4 ]({{ site.url }}/assets/gitStart/4.png)
+![ 4 ]({{ site.url }}/assets/gitStart/4.png | width=100)
 <br/>
 
 **Create new file**을 눌러 텍스트파일을 하나 추가시켜 보자.  
 <br/>
-![ 5 ]({{ site.url }}/assets/gitStart/5.png)
+![ 5 ]({{ site.url }}/assets/gitStart/5.png | width=100)
 <br/>
 
 파일 이름을 적고, 아래 텍스트 창에 내용을 적는다.  
 <br/>
-![ 6 ]({{ site.url }}/assets/gitStart/6.png)
+![ 6 ]({{ site.url }}/assets/gitStart/6.png | width=100)
 <br/>
 
 위 텍스트 파일에 대한 설명(내가 무엇을 진행하였는지를 적음)을 적고 Commit을 하여, 텍스트 파일을 저장소에 등록시킨다.  
 (Commit이란 완성된 작업물에 대한 작업이력 기록이다)
 <br/>
-![ 7 ]({{ site.url }}/assets/gitStart/7.png)
+![ 7 ]({{ site.url }}/assets/gitStart/7.png | width=100)
 <br/>
 
 <br/>
@@ -77,7 +77,7 @@ Your repositories메뉴에 있는 **New repository** 클릭
 
 저장소에 텍스트파일이 추가되었다.  
 <br/>
-![ 8 ]({{ site.url }}/assets/gitStart/8.png)
+![ 8 ]({{ site.url }}/assets/gitStart/8.png | width=100)
 <br/>
 
 <br/>
