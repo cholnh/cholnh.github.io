@@ -410,8 +410,7 @@ a.pagination-item:hover {
 
 /* scroll customizing */		
 ::-webkit-scrollbar {		
-    -webkit-appearance: none;
--webkit-overflow-scrolling: touch;		
+    -webkit-appearance: none;		
 }		
 		
 ::-webkit-scrollbar:vertical {		
@@ -433,4 +432,6 @@ a.pagination-item:hover {
     background-color: #ffffff; 		
 }
 
-
+* {
+    -webkit-overflow-scrolling: touch;
+}
