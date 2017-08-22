@@ -431,3 +431,5 @@ a.pagination-item:hover {
     border-radius: 10px;  		
     background-color: #ffffff; 		
 }
+
+-webkit-overflow-scrolling : touch;
