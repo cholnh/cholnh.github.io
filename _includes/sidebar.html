@@ -5,11 +5,11 @@
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
   <div class="sidebar-item">
-    <p>{{ site.description }}</p>
+    <!--<p>{{ site.description }}</p>-->
   </div>
 
   <nav class="sidebar-nav">
-    <a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>
+    <!--<a class="sidebar-nav-item{% if page.title == "Home" %} active{% endif %}" href="/">Home</a>-->
     <a class="sidebar-nav-item{% if page.title == "About" %} active{% endif %}" href="/About">About</a>
     {% comment %}
       The code below dynamically generates a sidebar nav of pages with
@@ -26,12 +26,5 @@
     {% endfor %}
 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-    </p>
-  </div>
 </div>
