@@ -1,0 +1,15 @@
+---
+layout: page
+title: Note
+---
+<ul class="titles">
+{% for post in site.categories.Note %}
+  {% if post.title != null %}
+    <li>
+      <div style="font-size: 14px;">
+      {{ post.date | date: "%Y. %m. %d " }}»&nbsp;<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>&nbsp;
+      <div>
+    </li>  
+  {% endif %}
+{% endfor %}
+</ul>
