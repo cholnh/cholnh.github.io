@@ -77,10 +77,10 @@ layout: page
 <br><br>
 -->
 
-## 주요경력(Professional Highlights)
+## Professional Highlights
 > 前) ~ 2021 스타트업 포만감, CTO
   
-## 외부활동(Service & Activities)
+## Service & Activities
 > 2020 경기도경제과학진흥원 공유기업 선정  
 > 2019 특허 출원 (다중 주문 실시간 배송 처리 장치 및 이를 이용한 다중 주문 실시간 배송 처리 방법, 10-2019-0022262)  
 > 2019 베트남 TECHFEST 연수  
@@ -98,7 +98,7 @@ layout: page
 > 2018 한국항공대학교 기술창업경진대회 총장상 수상  
 > 2018 고양시 사회적기업 공모전 지원금사업 최종 선발  
   
-## 수행 프로젝트(Projects)
+## Projects
 > 2021 포만감, 고객용 리뉴얼 REACT WEB 개발 및 배포  
 > 2021 포만감, 업주용 Flutter APP 개발 및 배포  
 > 2020 예약배송 플랫폼 포만감 2.0 REACT WEB 개발 및 배포  
@@ -113,10 +113,10 @@ layout: page
 > 2017 (주)Douzone, 그룹웨어 매뉴얼 WEB 개발  
 > 2017 경기대학교, 어셈블리 PC 시뮬레이터 개발  
 
-## 사용언어(Programming Languages)
+## Programming Languages
 > Java / Dart / JavaScript / TypeScript / Kotlin / Python  
   
-## 사용기술 & 지식(Skills & Knowledge)
+## Skills & Knowledge
 > Spring5+ / Spring Boot2+  
 > MSA / Modular Monolith / AOP / RESTful API  
 > Spring Security / Spring OAuth2.0 / CORS / Bcrypt  
