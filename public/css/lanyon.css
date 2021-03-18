@@ -449,7 +449,7 @@ a.pagination-item:hover {
   right: 0;
 }
 .layout-reverse #sidebar-checkbox:checked ~ .wrap {
-  left: auto;
+  position: static;
   right: 14rem;
 }
 
