@@ -8,13 +8,13 @@ permalink: /:categories/:title.html
 relative_permalinks: false
 
 # Setup
-title:            Nakzzi
+title:            Nzzi
 tagline:          ''
-description:      'Made by <a href="https://github.com/cholnh/" target="_blank">@Nakzzi</a>.'
-url: https://cholnh.github.io             
+description:      'Made by <a href="https://github.com/cholnh/" target="_blank">@Nzzi</a>.'
+url: https://nzzi.kr
 
 author:
-  name:           'Choi Nak Hyung'       
+  name:           'nzzi'       
 
 paginate:         5
 
@@ -27,8 +27,8 @@ github:
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: cholnh486@gmail.com
-  facebook: NAKZZI
+  email: hi@nzzi.kr
+  facebook:
   flickr:
   github: cholnh
   instagram:
