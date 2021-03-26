@@ -9,7 +9,7 @@ comments: true
 ### How to
 <br/>
 우선 Github에 진행할 프로젝트가 저장 될 Repository(저장소)를 하나 만든다.  
-(만드는 방법 : [Git Hub 시작]({{ site.url }}/git/Git-start.html))
+(만드는 방법 : [Git Hub 시작]({{ site.url }}/git/git-start.html))
 
 <br/>
 진행할 자바 프로젝트를 하나 생성한다.  

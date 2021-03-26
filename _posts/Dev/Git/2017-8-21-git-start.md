@@ -26,14 +26,14 @@ comments: true
 
 **[Github](https://github.com/)**는 깃 작업 저장소를 호스팅해주는 페이지이다.  
 진행하는 프로젝트를 public(공개범위)으로 올릴 경우, 오픈소스처럼 모두에게 공개되며 무료로 깃허브를 이용할 수 있다.  
-하지만 private 프로젝트의 경우 돈을 지불해야 한다.  
+~~하지만 private 프로젝트의 경우 돈을 지불해야 한다.~~  
 
 이제 깃허브를 시작하여 친구들 또는 나아가 전세계 사람들과 프로젝트를 제작하는 법을 알아보자.  
 
 <br/>
 <br/>
 ### How to
-<br/>
+<br/>~~~~
 **[Github 홈페이지](https://github.com/)**에 접속하여 회원가입을 진행한다.  
 <br/>
 ![ 1 ]({{ site.url }}/assets/gitStart/1.png){: width="100%" height="100%"}
@@ -82,4 +82,4 @@ Your repositories메뉴에 있는 **New repository** 클릭
 
 <br/>
 다음은 깃허브와 IDE를 연동하여 프로젝트를 진행하는 방법이다. 
- [Github - Eclipse 연동하기]({{ site.url }}/git/Git-github와eclipse연동.html)
+ [Github - Eclipse 연동하기]({{ site.url }}/git/github와eclipse연동.html)
