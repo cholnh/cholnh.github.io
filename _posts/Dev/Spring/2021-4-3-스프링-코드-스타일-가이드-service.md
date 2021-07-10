@@ -11,7 +11,21 @@ comments: true
 해당 포스팅은 상위 프로젝트([배달 서비스 플랫폼 API 서버 가이드](https://github.com/cholnh/delivery-platform-server-guide#배달-서비스-플랫폼-api-서버-가이드))
 에서 다루는 내용의 예시이며, 마이크로 서비스를 구성하는 여러 서비스 중 자바로 구현된 프로젝트의 내부 아키텍처 코드 스타일에 대해 다룹니다.
 
-<br/><br/>
+<br/>
+
+#### Table of Contents
+
+- [아키텍처 및 Directory 스타일 가이드]({{ site.url }}/spring/스프링-코드-스타일-가이드-directory.html)
+- [Domain Model 및 범위 가이드]({{ site.url }}/spring/스프링-코드-스타일-가이드-domain.html)
+- [Service 스타일 가이드]({{ site.url }}/spring/스프링-코드-스타일-가이드-service.html)
+- [DAO 스타일 가이드]({{ site.url }}/spring/스프링-코드-스타일-가이드-dao.html)
+- [Test 스타일 가이드]({{ site.url }}/spring/스프링-코드-스타일-가이드-test.html)
+
+<hr/><br/>
+
+### Service 코드 스타일 가이드
+
+<br/>
 
 
 
