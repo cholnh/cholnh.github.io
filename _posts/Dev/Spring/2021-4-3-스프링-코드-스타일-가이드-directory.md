@@ -6,7 +6,7 @@ tags: Java Spring Architecture Code-Style
 comments: true
 ---
 
-#### :speech_balloon: 개요
+#### 개요
 
 해당 포스팅은 상위 프로젝트([배달 서비스 플랫폼 API 서버 가이드](https://github.com/cholnh/delivery-platform-server-guide#배달-서비스-플랫폼-api-서버-가이드))
 에서 다루는 내용의 예시이며, 마이크로 서비스를 구성하는 여러 서비스 중 자바로 구현된 프로젝트의 내부 아키텍처 코드 스타일에 대해 다룹니다.
@@ -229,7 +229,7 @@ comments: true
 
 
 
-#### :monocle_face: 참고
+#### 참고
 
 - [cheese10yun/spring-guide](https://github.com/cheese10yun/spring-guide) 참고
 - 도메인 주도 설계로 시작하는 마이크로서비스 개발 (한정헌, 유해식, 최은정, 이주영 저)
