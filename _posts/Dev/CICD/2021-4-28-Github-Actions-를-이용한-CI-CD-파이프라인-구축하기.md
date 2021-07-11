@@ -575,7 +575,7 @@ Github 에서는 프로젝트 내에서 사용되는 민감한 정보(가령 보
 위 예시와 같이 생성된 secret 은 다음과 같은 형태로 사용됩니다.
 
 ```yaml
-$/{/{ secrets.MY_SECRET_VALUE /}/}
+$ { { secrets.MY_SECRET_VALUE } }
 ```
 
 <br/>
