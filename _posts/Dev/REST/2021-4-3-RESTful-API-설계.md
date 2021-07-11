@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "RESTful API 설계"
-categories: DIY
+categories: REST
 tags: API Server REST
 comments: true
 ---
