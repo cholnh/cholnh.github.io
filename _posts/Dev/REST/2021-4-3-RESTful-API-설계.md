@@ -19,8 +19,15 @@ comments: true
 
 <br/>
 
-### REST API 개념
+### REST API 배경 및 개념
 REST(Representational State Transfer) API 는 HTTP 프로토콜을 사용하는 네트워크 기반의 아키텍처 스타일 입니다.  
+미국 컴퓨터 과학자인 Roy Fielding(이하 “로이 필딩”) 박사에 의해 쓰여진 논문에서 REST 가 처음 언급됩니다.  
+
+> REST 를 개발하게 된 동기는 웹이 어떻게 동작해야 하는지에 대한 구조적 모델을 만들어서  
+> 웹 프로토콜 표준을 위한 guiding framework 역할을 하기 위함이었다.
+
+웹이 쓰이는 어플리케이션은 무수하며 그 사양이나 인터페이스는 천차만별입니다.  
+REST 는 이러한 다양성에 대해 일관성을 위한 가이드를 제시합니다.  
 
 <br/>
 
@@ -72,7 +79,6 @@ HTTP POST http://api.domain.com/products/
 REST API 특징은 다음과 같습니다.
 - 애플리케이션 분리 및 통합
 - 다양한 기기와의 통신 (다양한 모바일, 다양한 브라우저 등)
-- 표준이 존재하지 않습니다. (제각각인 API 설게 스타일..) 이를 해결하기 위해 성숙도 모델같은 API 설계법이 제시되었습니다.
 
 <br/><br/>
 
