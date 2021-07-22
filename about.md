@@ -77,8 +77,47 @@ layout: page
 <br><br>
 -->
 
+## Introduce
+**3**년간 스타트업을 직접 운영하며 **서버/웹/앱** 서비스를 **기획/개발/배포**하였습니다. 기획자와 디자이너와 함께 일하며 MAU 7천여명 접속자와 3억원 규모 거래 트렌젝션이 발행되는 작은  비즈니스를 만들어왔습니다.
+
+<br/>
+
+개발자는 근본적으로 **문제를 해결하는 직업**이며 그 도구로 프로그래밍 언어를 사용한다고 생각합니다. 문제 해결을 위해 **책임감**을 갖고 임하는 것이 무엇보다 중요하다고 믿습니다. 
+반복되는 비효율적인 업무의 **자동화를** 좋아합니다. 개발 뿐만 아니라 다른 포지션 팀원의 단순 반복 업무를 자동화하여 팀의 업무 효율에 기여한 바 있습니다. 
+
+<br/>
+
+요리하는 것을 좋아하며, 건강에 관심이 많아 7년째 덤벨을 들고있는 헬스인입니다.
+
+## Programming Languages
+> Java / Dart / JavaScript / TypeScript  
+  
+## Skills & Knowledge
+
+### Back-End
+
+- Spring Boot/Security/OAuth/EHCache
+- ORM (JPA, QueryDSL)
+- RDBMS (MySQL)
+- Junit5/Mockito
+
+### DevOps
+
+- NCP (classic server)
+- GCP (GCE, GCR)
+- Docker
+- Github Actions
+- Tomcat/NginX
+
+### Front-End
+
+- Flutter
+- Html5/CSS/JS(ES6)
+- React.js 
+- Vue.js
+
 ## Professional Highlights
-> 前) ~ 2021 스타트업 포만감, CTO
+> 前) 2017 ~ 2021 스타트업 포만감
   
 ## Service & Activities
 > 2020 경기도경제과학진흥원 공유기업 선정  
@@ -101,30 +140,10 @@ layout: page
 ## Projects
 > 2021 포만감, 고객용 리뉴얼 REACT WEB 개발 및 배포  
 > 2021 포만감, 업주용 Flutter APP 개발 및 배포  
-> 2020 예약배송 플랫폼 포만감 2.0 REACT WEB 개발 및 배포  
-> 2019 예약배송 플랫폼 포만감 2.0 Flutter APP 개발  
-> 2019 미스터포터, REST API Server 개발 및 배포, 3억원 규모 거래 트렌젝션 처리
+> 2020 포만감, 소개용 REACT WEB 개발 및 배포  
+> 2019 포만감, 고객용 2.0 Flutter APP 개발  
+> 2019 미스터포터, API Server 개발 및 배포
 > 2018 미스터포터, 관리용 WEB 개발 및 배포  
-> 2018 미스터포터, 고객용 WEB 개발 및 배포, 구글 애널리틱스 기준 MAU 7천여명, 1일 최대 9백여명 접속
-> 2018 영상스트리밍 그룹웨어 관리시스템/CMS WEB 개발  
-> 2018 해외 영상스트리밍 APP 개발  
-> 2018 영상스트리밍 관리 서버 개발  
-> 2018 졸업 프로젝트, 영상 스트리밍 APP 및 관리용 CMS WEB 개발  
-> 2017 (주)Douzone, 그룹웨어 매뉴얼 WEB 개발  
-> 2017 경기대학교, 어셈블리 PC 시뮬레이터 개발  
-
-## Programming Languages
-> Java / Dart / JavaScript / TypeScript / Kotlin / Python  
-  
-## Skills & Knowledge
-> Spring5+ / Spring Boot2+  
-> MSA / Modular Monolith / AOP / RESTful API  
-> Spring Security / Spring OAuth2.0 / CORS / Bcrypt  
-> Ehcache / Redis  
-> Apache Tomcat8+ / Netty / NginX / HTTPS/2 / Grafana / Prometheus /  NCP / Fcm  
-> JPA(ORM) / MySQL5.7  
-> TDD / JUnit5+ / Jmeter /  NGROK / Postman  
-> Git / BitBucket / GitHub / SourceTree  
-> Flutter / React.js / Vue.js / Jsp / Bootstrap / JQuery / ES6+  
-> SMTP / IMAPS / POP3S / hMailServer / ThunderBird  
-  
+> 2018 미스터포터, 고객용 WEB 개발 및 배포
+> 2018 영상 스트리밍 그룹웨어 CMS WEB 개발  
+> 2017 (주)Douzone, 그룹웨어 CMS WEB 개발  
