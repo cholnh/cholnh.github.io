@@ -80,41 +80,39 @@ layout: page
 ## Introduce
 **3**년간 스타트업을 직접 운영하며 **서버/웹/앱** 서비스를 **기획/개발/배포**하였습니다. 기획자와 디자이너와 함께 일하며 MAU 7천여명 접속자와 3억원 규모 거래 트렌젝션이 발행되는 작은  비즈니스를 만들어왔습니다.
 
-<br/>
+<div class="br"></div>
 
 개발자는 근본적으로 **문제를 해결하는 직업**이며 그 도구로 프로그래밍 언어를 사용한다고 생각합니다. 문제 해결을 위해 **책임감**을 갖고 임하는 것이 무엇보다 중요하다고 믿습니다. 
 반복되는 비효율적인 업무의 **자동화를** 좋아합니다. 개발 뿐만 아니라 다른 포지션 팀원의 단순 반복 업무를 자동화하여 팀의 업무 효율에 기여한 바 있습니다. 
 
-<br/>
+<div class="br"></div>
 
 요리하는 것을 좋아하며, 건강에 관심이 많아 7년째 덤벨을 들고있는 헬스인입니다.
 
-## Programming Languages
-> Java / Dart / JavaScript / TypeScript  
-  
+<br/>
+
 ## Skills & Knowledge
 
-### Back-End
-
-- Spring Boot/Security/OAuth/EHCache
-- ORM (JPA, QueryDSL)
-- RDBMS (MySQL)
-- Junit5/Mockito
-
-### DevOps
-
-- NCP (classic server)
-- GCP (GCE, GCR)
-- Docker
-- Github Actions
-- Tomcat/NginX
-
-### Front-End
-
-- Flutter
-- Html5/CSS/JS(ES6)
-- React.js 
-- Vue.js
+> ### Back-End
+> - Spring Boot/Security/OAuth/EHCache
+> - ORM (JPA, QueryDSL)
+> - RDBMS (MySQL)
+> - Junit5/Mockito
+> 
+> ### DevOps
+> 
+> - NCP (classic server)
+> - GCP (GCE, GCR)
+> - Docker
+> - Github Actions
+> - Tomcat/NginX
+> 
+> ### Front-End
+> 
+> - Flutter
+> - Html5/CSS/JS(ES6)
+> - React.js 
+> - Vue.js
 
 ## Professional Highlights
 > 前) 2017 ~ 2021 스타트업 포만감
