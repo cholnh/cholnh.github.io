@@ -92,14 +92,13 @@ layout: page
 <br/>
 
 ## Skills & Knowledge
-
-> ### Back-End
+> #### Back-End
 > - Spring Boot/Security/OAuth/EHCache
 > - ORM (JPA, QueryDSL)
 > - RDBMS (MySQL)
 > - Junit5/Mockito
 > 
-> ### DevOps
+> #### DevOps
 > 
 > - NCP (classic server)
 > - GCP (GCE, GCR)
@@ -107,7 +106,7 @@ layout: page
 > - Github Actions
 > - Tomcat/NginX
 > 
-> ### Front-End
+> #### Front-End
 > 
 > - Flutter
 > - Html5/CSS/JS(ES6)
