@@ -92,8 +92,6 @@ layout: page
 > 
 > 요리하는 것을 좋아하며, 건강에 관심이 많아 7년째 덤벨을 들고있는 헬스인입니다.
 
-<br/>
-
 ## Skills & Knowledge
 > #### Back-End
 > - Spring Boot/Security/OAuth/EHCache
