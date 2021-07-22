@@ -104,6 +104,13 @@ h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+
+  font-size: 1rem;
+  color: rgb(34, 36, 38);
+  line-height: 1.7;
+  letter-spacing: -0.004em;
+  word-break: keep-all;
+  overflow-wrap: break-word;
 }
 
 strong {
