@@ -8,7 +8,7 @@ comments: true
 
 ### 개요
 
-RabbitMQ 란 메시지 브로커 방식의 메시지 큐 오픈소스입니다.  
+**RabbitMQ** 란 메시지 브로커 방식의 메시지 큐 오픈소스입니다.  
 메시지 큐를 왜 사용하는지, 어떻게 설치하여 사용하는지 차근차근 살펴보겠습니다.  
 
 <div class="br"/>
@@ -24,14 +24,14 @@ RabbitMQ 란 메시지 브로커 방식의 메시지 큐 오픈소스입니다.
 ### RabbitMQ 란?
 
 AMQP(Advanced Message Queuing Protocol)은 각기 다른 벤더들이 메시징을 통해 통신할 때 사용하는 응용 계층 프로토콜 입니다.  
-**RabbitMQ**는 얼랭(Erlang)으로 짜여진 AMQP 프로토콜의 구현체로 비동기 작업 큐에 주로 사용됩니다.
+RabbitMQ는 얼랭(Erlang)으로 짜여진 AMQP 프로토콜의 구현체로 비동기 작업 큐에 주로 사용됩니다.
 
 <br/>
 
 이러한 메시지 큐에는 RabbitMQ 외에도 Kafka, ActiveMQ, ZeroMQ 등 여러가지가 있습니다.  
 주로 RabbitMQ 와 Kafka 가 쓰이며, 비교적 가벼운 RabbitMQ 를 다뤄보도록 하겠습니다.  
 
-> RabbitMQ 는 주로 복잡한 라우팅, 신속함이 요구되는 웹에 유리한 반면 Kafka 는 무거운 성능을 다루는데 유리합니다.  
+> RabbitMQ 는 주로 복잡한 라우팅, 신속함이 요구되는 웹에 유리한 반면 Kafka 는 무거운 성능을 다루는데 유리합니다. 
 > 비교적 가벼운 작업 또는 안정적인 작업이 요구된다면 RabbitMQ 를 사용하는 것이 바람직해 보입니다.
 
 <br/>
