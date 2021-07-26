@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "RabbitMQ GCP 에 올리기"
-categories: REST
-tags: API Server REST
+categories: RabbitMQ
+tags: RabbitMQ AMQP GCP Docker SpringBoot
 comments: true
 ---
 
