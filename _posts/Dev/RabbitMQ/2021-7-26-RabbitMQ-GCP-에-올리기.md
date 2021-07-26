@@ -92,9 +92,9 @@ RabbitMQ 를 간단하게 GCE 인스턴스위에 올리기 위해 컨테이너 �
 
 도커 명령어를 통해 RabbitMQ 이미지를 받아와 컨테이너화 합니다.
 
-`
+```
 sudo docker run -d --name rabbitmq -p 5672:5672 -p 8080:15672 --restart=unless-stopped -e RABBITMQ_DEFAULT_USER={{ USERNAME }} -e RABBITMQ_DEFAULT_PASS={{ PASSWORD }} rabbitmq:management
-`
+```
 
 - `USERNAME`  
   RabbitMQ 관리 모듈에 사용되는 아이디 설정
