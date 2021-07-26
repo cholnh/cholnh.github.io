@@ -26,7 +26,7 @@ comments: true
 AMQP(Advanced Message Queuing Protocol)은 각기 다른 벤더들이 메시징을 통해 통신할 때 사용하는 응용 계층 프로토콜 입니다.  
 RabbitMQ는 얼랭(Erlang)으로 짜여진 AMQP 프로토콜의 구현체로 비동기 작업 큐에 주로 사용됩니다.
 
-<br/>
+<div class="br"/>
 
 이러한 메시지 큐에는 RabbitMQ 외에도 Kafka, ActiveMQ, ZeroMQ 등 여러가지가 있습니다.  
 주로 RabbitMQ 와 Kafka 가 쓰이며, 비교적 가벼운 RabbitMQ 를 다뤄보도록 하겠습니다.  
@@ -78,7 +78,7 @@ AMQP 는 메시지를 어떻게 분배(라우팅)할지에 대해 다음과 같�
 
 `GCE` 인스턴스 생성이 처음이시라면 [이곳을]({{ site.url }}/gcp/gce-위에-모놀리식-스프링부트-실행시키기.html) 참고해주세요.  
 
-<br/>
+<div class="br"/>
 
 생성된 인스턴스에 방화벽 규칙을 추가하여 RabbitMQ 사용 포트(`5672`, `15672`)를 열어줍니다.  
 
