@@ -43,12 +43,8 @@ AMQP 의 라우팅 모델은 `Exchange`, `Queue`, `Binding` 으로 구성됩니�
 - `Exchange`  
   Producer 로부터 수신한 메시지를 큐에 분배하는 라우터 역할
 
-<br/> 
-
 - `Queue`  
   메시지를 메모리/디스크에 저장했다가 Consumer 에게 전달하는 역할
-  
-<br/>
 
 - `Binding`  
   `Exchange` 와 `Queue` 의 관계를 정의한 것
@@ -62,20 +58,14 @@ AMQP 는 메시지를 어떻게 분배(라우팅)할지에 대해 다음과 같�
 - `Direct`  
   `Exchange` 에 바인딩 된 `Queue` 중 메시지의 라우팅 키와 매핑되어 있는 `Queue` 로 메시지 전달.  
   1:1 관계로 Unicast 방식에 적합.
-  
-<br/>
 
 - `Fanout`  
   메시지의 라우팅 키를 무시하고 바인딩 된 모든 `Queue` 에 메시지를 전달.  
   1:N 관계로 브로드캐스트 하는 용도로 사용.
 
-<br/>
-
 - `Topic`  
   메시지의 라우팅 키를 `Queue` 에 정의된 패턴과 대조하여 메시지를 전달.  
   Multicast 방식에 적합.
-  
-<br/>
 
 - `Headers`  
   라우팅 키를 사용하지 않고 메시지 헤더에 여러 속성들을 더해 속성이 매칭되는 `Queue` 에 메시지 전달.
