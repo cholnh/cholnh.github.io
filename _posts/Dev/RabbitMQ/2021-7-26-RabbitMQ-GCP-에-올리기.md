@@ -77,7 +77,12 @@ AMQP 는 메시지를 어떻게 분배(라우팅)할지에 대해 다음과 같�
 #### GCE 인스턴스 생성
 
 `GCE` 인스턴스 생성이 처음이시라면 [이곳을]({{ site.url }}/gcp/gce-위에-모놀리식-스프링부트-실행시키기.html) 참고해주세요.  
-생성된 인스턴스에 방화벽 규칙을 추가하여 RabbitMQ 사용 포트(`5672`, `15672`)를 열어줍니다.  
+생성된 인스턴스에 방화벽 규칙을 추가하여 RabbitMQ 사용 포트(`5672`, `15672`)를 열어줍니다. 
+
+<div class="nzzi-image-box">
+  <img src="{{ site.url }}/assets/rabbitmq/gcp-port.png"/>
+  <div>GCP 방화벽 규칙 수정</div>
+</div>
 
 <br/>
 
@@ -114,3 +119,6 @@ sudo docker run -d --name rabbitmq -p 5672:5672 -p 8080:15672 --restart=unless-s
 <br/>
 
 ### RabbitMQ 스프링 연동
+
+간단한 스프링 부트 프로젝트를 생성합니다.  
+
