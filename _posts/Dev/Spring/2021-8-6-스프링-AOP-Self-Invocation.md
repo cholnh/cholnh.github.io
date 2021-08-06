@@ -48,8 +48,7 @@ public class ServiceImpl {
 ```
 
 `findMulti()` 메서드가 자신의 클래스 내부에 있는 `findOne()` 을 호출하고 있다.
-결과는 어떻게 될까?
-피호출자인 `findOne()` 메서드의 `@Cacheable` 은 단 한번도 실행되지 않게 된다.
+결과는 어떻게 될까? 피호출자인 `findOne()` 메서드의 `@Cacheable` 은 단 한번도 실행되지 않게 된다.
 
 <br/>
 
@@ -59,7 +58,7 @@ Self-Invocation 은 프록시를 사용하기에 생기는 문제이다.
 위 `findMulti()` 메서드가 실행되는 것을 그림으로 확인해보자.
 
 <div class="nzzi-image-box">
-  <img src="{{ site.url }}/assets/spring/aop-self-invocation-1.jpg"/>
+  <img src="{{ site.url }}/assets/spring/aop-self-invocation-1.png"/>
   <div>AOP 동작 원리</div>
 </div>
 
