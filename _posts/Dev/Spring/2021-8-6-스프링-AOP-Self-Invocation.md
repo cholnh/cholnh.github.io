@@ -9,13 +9,13 @@ comments: true
 ## Self-Invocation 이란?
 
 스프링 AOP 는 **프록시 기반의 AOP** 를 제공하기 위해 `CGLIB` 과 `JDK Dynamic Proxy` 를 사용한다.
-`JDK Dynamic Proxy` 의 경우 인터페이스를 구현받아 프록시를 생성하게 되는데, 인터페이스가 구현되어있지 않을 경우 `CGLIB` 을 통해 프록시가 생성이 된다.
+`JDK Dynamic Proxy` 의 경우 인터페이스를 구현받아 프록시를 생성하게 되는데, 인터페이스가 구현되어있지 않을 경우 `CGLIB` 을 통해 프록시가 생성이 된다.  
 자세한 내용은 [ **[스프링 AOP]({{ site.url }}/spring/스프링-AOP.html)** ]에 포스팅하였습니다.
 
 <br/>
 
 프로그램이 시작되면 IoC 컨테이너는 DI 작업을 위한 빈 등록을 하게된다.
-우선 빈 후처리기를 통해 AOP 에 등록할 빈을 검수(?)하게 된다. (어드바이스의 포인트컷을 조회하여 빈을 뽑아옴)
+우선 빈 후처리기를 통해 AOP 에 등록할 빈을 검수(?)하게 된다. (어드바이스의 포인트컷을 조회하여 빈을 뽑아옴)  
 선별된 빈은 프록시 생성기를 통해 프록시 객체로 감싸진 다음 IoC 컨테이너에 (빈을 대신하여)등록되어 진다.
 
 <br/>
@@ -62,12 +62,12 @@ Self-Invocation 은 프록시를 사용하기에 생기는 문제이다.
   <div>AOP 동작 원리</div>
 </div>
 
-- `findMulti()` 메서드가 Invocation 되면 프록시의 메서드가 실행된다.
-  `$proxy.findMulti();`
+- `findMulti()` 메서드가 Invocation 되면 프록시의 메서드가 실행된다.  
+  `$proxy.findMulti();`  
   해당 프록시에 주입된 Aspect 와 위빙된 본래 메서드가 실행된다.
 
-- `findMulti` 메서드 내부에 `findOne()` 메서드가 실행된다.
-  `this.findOne();`
+- `findMulti` 메서드 내부에 `findOne()` 메서드가 실행된다.  
+  `this.findOne();`  
   자기 자신의 클래스 메서드를 실행한다. (물론 Aspect 실행이 되지 않는다)
 
 <br/>
