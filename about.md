@@ -78,7 +78,7 @@ layout: page
 -->
 
 ## Introduce
-> **3**년간 스타트업을 직접 운영하며 **서버/웹/앱** 서비스를 **기획/개발/배포**하였습니다. 기획자와 디자이너와 함께 일하며 MAU 7천여명 접속자와 3억원 규모 거래 트렌젝션이 발행되는 작은  비즈니스를 만들어왔습니다.
+> **3**년간 스타트업을 직접 운영하며 **서버/웹/앱** 서비스를 **기획/개발/배포**하였습니다. 기획자와 디자이너와 함께 일하며 작은 비즈니스를 만들어왔습니다.
 > 
 > <div class="br"></div>
 > 
@@ -90,32 +90,55 @@ layout: page
 > 
 > <div class="br"></div>
 > 
-> 요리하는 것을 좋아하며, 건강에 관심이 많아 7년째 덤벨을 들고있는 헬스인입니다.
+> 건강에 관심이 많아 7년째 덤벨을 들고있는 헬스인입니다.
+> 
+> <div class="br"></div>
+
+> 현재는 **우아한형제들**에 재직 중이며 배달의민족을 사용하는 사장님들에게 장사하기 좋은 환경을 마련하기 위해 노력 중입니다.  
 
 ## Skills & Knowledge
 > #### Back-End
-> - Spring Boot/Security/OAuth/EHCache
+> - Spring Boot
+> - Spring Security, OAuth, JWT
+> - Spring Batch
 > - ORM (JPA, QueryDSL)
-> - RDBMS (MySQL)
 > - Junit5/Mockito
+> - Consul
+> - Feign
+> - Resilience4j
+> - LocalCache (ehCache, caffeine, Hazelcast)
+> - AOP
+> - Annotation Processor 활용
+> - Gradle
+> - ApiDocs (RestDocs, Swagger(SpringDocs))
 > 
-> #### DevOps
+> #### DB
+> - RDBMS (MySQL8.0)
+> - NoSQL (Redis, AWS DynamoDB)
+> - Airflow
+> - Zeppelin
 > 
+> #### Infra
+> - AWS (EC2, ASG, ALB, S3, RDS, ElasticCache, VPC, CloudFront, SES, Beanstalk, CodeDeploy, CodePipeline, Route53, SQS, SNS, CloudWatch)
 > - NCP (classic server)
 > - GCP (GCE, GCR)
 > - Docker
 > - Github Actions
+> - Gitlab CI
 > - Tomcat/NginX
+> - Jenkins
+> - Kibana
+> - Grafana, Loki
 > 
 > #### Front-End
-> 
 > - Flutter
 > - Html5/CSS/JS(ES6)
 > - React.js 
 > - Vue.js
 
 ## Professional Highlights
-> 前) 2017 ~ 2021 스타트업 포만감
+> 現) 2021 ~ 우아한형제들
+> 前) 2017 ~ 2021 스타트업 포만감 
   
 ## Service & Activities
 > 2020 경기도경제과학진흥원 공유기업 선정  
@@ -133,15 +156,4 @@ layout: page
 > 2018 대학 창업 U-300팀 최종 60팀 선발  
 > 2018 성신여대 스마트창작터 시장검증 지원 선발  
 > 2018 한국항공대학교 기술창업경진대회 총장상 수상  
-> 2018 고양시 사회적기업 공모전 지원금사업 최종 선발  
-  
-## Projects
-> 2021 포만감, 고객용 리뉴얼 REACT WEB 개발 및 배포  
-> 2021 포만감, 업주용 Flutter APP 개발 및 배포  
-> 2020 포만감, 소개용 REACT WEB 개발 및 배포  
-> 2019 포만감, 고객용 2.0 Flutter APP 개발  
-> 2019 미스터포터, API Server 개발 및 배포
-> 2018 미스터포터, 관리용 WEB 개발 및 배포  
-> 2018 미스터포터, 고객용 WEB 개발 및 배포
-> 2018 영상 스트리밍 그룹웨어 CMS WEB 개발  
-> 2017 (주)Douzone, 그룹웨어 CMS WEB 개발  
+> 2018 고양시 사회적기업 공모전 지원금사업 최종 선발
