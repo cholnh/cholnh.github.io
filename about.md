@@ -77,6 +77,10 @@ layout: page
 <br><br>
 -->
 
+## Professional Highlights
+> 現) 2021 ~ 우아한형제들  
+> 前) 2017 ~ 2021 스타트업 포만감
+
 ## Introduce
 > **3**년간 스타트업을 직접 운영하며 **서버/웹/앱** 서비스를 **기획/개발/배포**하였습니다. 기획자와 디자이너와 함께 일하며 작은 비즈니스를 만들어왔습니다.
 > 
@@ -93,7 +97,7 @@ layout: page
 > 건강에 관심이 많아 7년째 덤벨을 들고있는 헬스인입니다.
 > 
 > <div class="br"></div>
-
+>
 > 현재는 **우아한형제들**에 재직 중이며 배달의민족을 사용하는 사장님들에게 장사하기 좋은 환경을 마련하기 위해 노력 중입니다.  
 
 ## Skills & Knowledge
@@ -135,10 +139,6 @@ layout: page
 > - Html5/CSS/JS(ES6)
 > - React.js 
 > - Vue.js
-
-## Professional Highlights
-> 現) 2021 ~ 우아한형제들
-> 前) 2017 ~ 2021 스타트업 포만감 
   
 ## Service & Activities
 > 2020 경기도경제과학진흥원 공유기업 선정  
