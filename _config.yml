@@ -11,7 +11,7 @@ relative_permalinks: false
 title:            Nzzi
 tagline:          ''
 description:      'Made by <a href="https://github.com/cholnh/" target="_blank">@Nzzi</a>.'
-url: https://nzzi.kr
+url: https://cholnh.github.io
 
 author:
   name:           'nzzi'       
@@ -27,7 +27,7 @@ github:
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
-  email: dev@nzzi.kr
+  email: nzzi@woowahan.com
   facebook:
   flickr:
   github: cholnh
